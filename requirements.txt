@@ -1,0 +1,4 @@
+pandas>=2.0
+requests>=2.31
+# Só para o modo --live com Google Ads:
+# google-ads>=25.0
