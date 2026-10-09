@@ -1,0 +1,961 @@
+date,channel,campaign,spend,impressions,clicks,conversions,revenue
+2026-06-11,Google Ads,Search | Marca,187.53,3515,376,16.85,3335.27
+2026-06-11,Google Ads,Search | Genéricas,442.26,7180,303,4.66,726.14
+2026-06-11,Google Ads,Performance Max | Catálogo,595.13,34715,660,7.01,1480.13
+2026-06-12,Google Ads,Search | Marca,178.58,3008,343,20.6,3509.12
+2026-06-12,Google Ads,Search | Genéricas,448.86,7163,319,4.22,792.21
+2026-06-12,Google Ads,Performance Max | Catálogo,605.09,37863,731,10.73,2245.28
+2026-06-13,Google Ads,Search | Marca,172.16,2650,299,19.23,3546.18
+2026-06-13,Google Ads,Search | Genéricas,373.55,5500,259,4.89,854.09
+2026-06-13,Google Ads,Performance Max | Catálogo,604.16,37165,738,8.25,1549.11
+2026-06-14,Google Ads,Search | Marca,153.08,2821,302,16.77,3083.85
+2026-06-14,Google Ads,Search | Genéricas,373.19,6680,293,5.71,1011.2
+2026-06-14,Google Ads,Performance Max | Catálogo,620.63,33602,738,7.67,1534.44
+2026-06-15,Google Ads,Search | Marca,224.57,3504,397,22.55,4554.19
+2026-06-15,Google Ads,Search | Genéricas,494.73,9281,387,5.62,921.74
+2026-06-15,Google Ads,Performance Max | Catálogo,645.8,29184,659,7.47,1578.96
+2026-06-16,Google Ads,Search | Marca,196.7,2970,330,15.14,2716.46
+2026-06-16,Google Ads,Search | Genéricas,482.53,8016,375,7.19,1211.8
+2026-06-16,Google Ads,Performance Max | Catálogo,671.52,32224,678,6.74,1256.55
+2026-06-17,Google Ads,Search | Marca,173.98,2598,308,15.39,2654.8
+2026-06-17,Google Ads,Search | Genéricas,443.47,6440,298,5.89,1086.18
+2026-06-17,Google Ads,Performance Max | Catálogo,607.31,29683,646,8.22,1606.52
+2026-06-18,Google Ads,Search | Marca,198.93,3546,392,19.91,4104.53
+2026-06-18,Google Ads,Search | Genéricas,495.56,8368,385,5.17,962.63
+2026-06-18,Google Ads,Performance Max | Catálogo,765.83,41049,886,11.68,2228.15
+2026-06-19,Google Ads,Search | Marca,201.07,3061,362,19.11,3251.02
+2026-06-19,Google Ads,Search | Genéricas,411.96,6747,337,6.41,1175.65
+2026-06-19,Google Ads,Performance Max | Catálogo,634.2,34222,773,11.82,2222.3
+2026-06-20,Google Ads,Search | Marca,165.58,2791,329,19.38,3390.59
+2026-06-20,Google Ads,Search | Genéricas,385.1,6432,282,5.35,906.05
+2026-06-20,Google Ads,Performance Max | Catálogo,548.52,27497,604,6.42,1266.54
+2026-06-21,Google Ads,Search | Marca,200.97,3200,354,18.57,3243.7
+2026-06-21,Google Ads,Search | Genéricas,374.56,6109,286,3.96,643.01
+2026-06-21,Google Ads,Performance Max | Catálogo,550.55,30007,596,8.96,1968.92
+2026-06-22,Google Ads,Search | Marca,178.74,2953,342,15.24,2668.55
+2026-06-22,Google Ads,Search | Genéricas,541.22,8634,395,7.22,1318.21
+2026-06-22,Google Ads,Performance Max | Catálogo,672.01,39207,812,9.76,1987.6
+2026-06-23,Google Ads,Search | Marca,226.47,3231,397,16.5,3057.76
+2026-06-23,Google Ads,Search | Genéricas,470.62,7439,325,4.39,747.32
+2026-06-23,Google Ads,Performance Max | Catálogo,747.29,43510,868,13.15,2665.09
+2026-06-24,Google Ads,Search | Marca,226.99,4002,408,26.51,5347.12
+2026-06-24,Google Ads,Search | Genéricas,545.07,7559,372,4.96,850.67
+2026-06-24,Google Ads,Performance Max | Catálogo,676.01,40007,766,9.0,2024.08
+2026-06-25,Google Ads,Search | Marca,183.57,2838,315,15.75,3249.01
+2026-06-25,Google Ads,Search | Genéricas,529.26,8060,387,5.12,844.83
+2026-06-25,Google Ads,Performance Max | Catálogo,813.38,41979,889,12.49,2333.68
+2026-06-26,Google Ads,Search | Marca,196.81,2977,357,15.38,3174.7
+2026-06-26,Google Ads,Search | Genéricas,391.5,6592,309,5.38,876.35
+2026-06-26,Google Ads,Performance Max | Catálogo,614.16,31704,632,8.27,1735.83
+2026-06-27,Google Ads,Search | Marca,166.32,2639,297,18.8,3343.03
+2026-06-27,Google Ads,Search | Genéricas,423.5,7348,331,5.75,949.44
+2026-06-27,Google Ads,Performance Max | Catálogo,581.55,32023,615,7.53,1697.54
+2026-06-28,Google Ads,Search | Marca,205.08,3855,407,18.68,3836.45
+2026-06-28,Google Ads,Search | Genéricas,464.11,7120,319,4.23,776.12
+2026-06-28,Google Ads,Performance Max | Catálogo,683.98,32239,743,10.0,1848.21
+2026-06-29,Google Ads,Search | Marca,228.09,3735,432,27.39,4798.08
+2026-06-29,Google Ads,Search | Genéricas,429.92,7421,345,4.89,858.71
+2026-06-29,Google Ads,Performance Max | Catálogo,801.23,43869,946,10.43,2133.25
+2026-06-30,Google Ads,Search | Marca,240.15,3966,408,20.41,3685.2
+2026-06-30,Google Ads,Search | Genéricas,425.19,6305,298,4.2,757.25
+2026-06-30,Google Ads,Performance Max | Catálogo,785.17,46724,885,8.71,1922.36
+2026-07-01,Google Ads,Search | Marca,230.89,3481,416,22.52,3956.72
+2026-07-01,Google Ads,Search | Genéricas,426.82,6603,328,6.03,1111.98
+2026-07-01,Google Ads,Performance Max | Catálogo,832.67,49227,982,9.84,2130.21
+2026-07-02,Google Ads,Search | Marca,220.45,3557,408,17.55,3602.13
+2026-07-02,Google Ads,Search | Genéricas,511.68,7081,346,6.59,1025.75
+2026-07-02,Google Ads,Performance Max | Catálogo,764.46,38492,878,12.63,2777.67
+2026-07-03,Google Ads,Search | Marca,209.13,3360,398,16.64,3379.05
+2026-07-03,Google Ads,Search | Genéricas,494.38,7912,387,6.07,1003.36
+2026-07-03,Google Ads,Performance Max | Catálogo,752.01,46475,883,9.34,1848.93
+2026-07-04,Google Ads,Search | Marca,187.62,2905,311,17.32,3207.8
+2026-07-04,Google Ads,Search | Genéricas,451.61,6634,332,4.29,807.3
+2026-07-04,Google Ads,Performance Max | Catálogo,551.86,28029,561,5.64,1141.07
+2026-07-05,Google Ads,Search | Marca,188.53,3112,356,18.62,3438.38
+2026-07-05,Google Ads,Search | Genéricas,421.13,6844,328,3.94,735.36
+2026-07-05,Google Ads,Performance Max | Catálogo,644.46,31113,685,9.29,1852.73
+2026-07-06,Google Ads,Search | Marca,178.64,2902,314,14.81,2993.92
+2026-07-06,Google Ads,Search | Genéricas,510.12,8882,393,6.0,1011.86
+2026-07-06,Google Ads,Performance Max | Catálogo,695.24,40356,834,12.72,2700.07
+2026-07-07,Google Ads,Search | Marca,235.54,3886,418,22.26,3786.77
+2026-07-07,Google Ads,Search | Genéricas,458.99,7360,344,5.93,1012.82
+2026-07-07,Google Ads,Performance Max | Catálogo,745.68,42034,878,13.18,2861.87
+2026-07-08,Google Ads,Search | Marca,181.56,3204,360,19.96,3648.09
+2026-07-08,Google Ads,Search | Genéricas,515.15,7627,363,5.01,809.87
+2026-07-08,Google Ads,Performance Max | Catálogo,623.91,34935,730,10.72,2009.85
+2026-07-09,Google Ads,Search | Marca,188.0,3166,333,19.02,3590.74
+2026-07-09,Google Ads,Search | Genéricas,415.64,7189,298,5.37,973.53
+2026-07-09,Google Ads,Performance Max | Catálogo,614.54,35287,693,10.65,2191.09
+2026-07-10,Google Ads,Search | Marca,161.21,2570,308,15.67,3140.17
+2026-07-10,Google Ads,Search | Genéricas,456.69,6570,308,6.04,1120.21
+2026-07-10,Google Ads,Performance Max | Catálogo,695.69,35204,740,10.78,2231.06
+2026-07-11,Google Ads,Search | Marca,184.11,2862,319,14.59,2618.11
+2026-07-11,Google Ads,Search | Genéricas,399.7,6082,281,4.78,785.1
+2026-07-11,Google Ads,Performance Max | Catálogo,518.75,30038,602,6.85,1415.53
+2026-07-12,Google Ads,Search | Marca,152.83,2518,293,16.81,2900.19
+2026-07-12,Google Ads,Search | Genéricas,388.92,6301,285,3.89,658.39
+2026-07-12,Google Ads,Performance Max | Catálogo,694.24,34736,758,11.17,2411.48
+2026-07-13,Google Ads,Search | Marca,192.05,3560,387,22.67,4587.51
+2026-07-13,Google Ads,Search | Genéricas,528.01,8223,397,6.5,1141.09
+2026-07-13,Google Ads,Performance Max | Catálogo,659.0,37384,775,7.41,1469.26
+2026-07-14,Google Ads,Search | Marca,215.08,3808,398,20.36,3561.46
+2026-07-14,Google Ads,Search | Genéricas,493.72,8950,403,6.66,1037.18
+2026-07-14,Google Ads,Performance Max | Catálogo,768.62,44195,921,8.92,1784.39
+2026-07-15,Google Ads,Search | Marca,178.93,2851,336,16.42,3259.8
+2026-07-15,Google Ads,Search | Genéricas,502.54,9275,391,4.75,823.44
+2026-07-15,Google Ads,Performance Max | Catálogo,813.39,43040,931,13.27,2802.92
+2026-07-16,Google Ads,Search | Marca,202.09,3201,337,13.32,2342.46
+2026-07-16,Google Ads,Search | Genéricas,389.0,5967,278,3.82,683.25
+2026-07-16,Google Ads,Performance Max | Catálogo,732.34,40605,871,12.24,2315.76
+2026-07-17,Google Ads,Search | Marca,199.07,3206,331,13.13,2388.24
+2026-07-17,Google Ads,Search | Genéricas,446.46,6703,302,5.35,842.17
+2026-07-17,Google Ads,Performance Max | Catálogo,693.55,38855,751,10.67,2340.59
+2026-07-18,Google Ads,Search | Marca,165.59,2645,325,19.29,3534.4
+2026-07-18,Google Ads,Search | Genéricas,367.03,6057,279,4.11,756.34
+2026-07-18,Google Ads,Performance Max | Catálogo,636.62,33441,767,10.24,2237.2
+2026-07-19,Google Ads,Search | Marca,178.45,2797,328,21.03,3791.9
+2026-07-19,Google Ads,Search | Genéricas,428.24,6848,314,4.86,874.54
+2026-07-19,Google Ads,Performance Max | Catálogo,564.51,26173,586,5.81,1281.96
+2026-07-20,Google Ads,Search | Marca,180.81,2891,331,16.17,2768.06
+2026-07-20,Google Ads,Search | Genéricas,505.14,9203,399,7.33,1220.5
+2026-07-20,Google Ads,Performance Max | Catálogo,787.99,41923,841,7.94,1773.56
+2026-07-21,Google Ads,Search | Marca,176.42,2747,307,18.02,3535.61
+2026-07-21,Google Ads,Search | Genéricas,490.67,7475,364,4.64,753.64
+2026-07-21,Google Ads,Performance Max | Catálogo,769.38,41653,889,10.96,2260.7
+2026-07-22,Google Ads,Search | Marca,189.82,3031,328,18.79,3388.6
+2026-07-22,Google Ads,Search | Genéricas,419.25,7782,336,4.35,753.57
+2026-07-22,Google Ads,Performance Max | Catálogo,756.27,45232,896,11.11,2379.85
+2026-07-23,Google Ads,Search | Marca,213.71,3602,386,16.06,2849.65
+2026-07-23,Google Ads,Search | Genéricas,400.61,7633,317,5.16,847.46
+2026-07-23,Google Ads,Performance Max | Catálogo,771.27,38801,847,8.61,1895.12
+2026-07-24,Google Ads,Search | Marca,181.29,2692,306,15.67,2926.37
+2026-07-24,Google Ads,Search | Genéricas,384.02,6232,312,4.94,904.42
+2026-07-24,Google Ads,Performance Max | Catálogo,636.92,35880,773,7.51,1431.53
+2026-07-25,Google Ads,Search | Marca,164.73,2527,311,13.09,2604.86
+2026-07-25,Google Ads,Search | Genéricas,389.28,6256,272,4.4,749.31
+2026-07-25,Google Ads,Performance Max | Catálogo,573.81,25760,594,6.7,1406.75
+2026-07-26,Google Ads,Search | Marca,175.44,2491,304,13.5,2404.04
+2026-07-26,Google Ads,Search | Genéricas,415.4,7674,330,4.16,644.35
+2026-07-26,Google Ads,Performance Max | Catálogo,604.26,32748,659,7.13,1522.15
+2026-07-27,Google Ads,Search | Marca,211.21,3330,387,24.39,4875.07
+2026-07-27,Google Ads,Search | Genéricas,481.95,6901,345,5.31,921.46
+2026-07-27,Google Ads,Performance Max | Catálogo,750.75,34462,771,7.57,1448.16
+2026-07-28,Google Ads,Search | Marca,193.98,2950,335,15.58,2723.39
+2026-07-28,Google Ads,Search | Genéricas,507.54,7209,361,5.78,992.93
+2026-07-28,Google Ads,Performance Max | Catálogo,649.83,38378,795,9.05,1762.62
+2026-07-29,Google Ads,Search | Marca,174.98,2434,291,15.7,3234.82
+2026-07-29,Google Ads,Search | Genéricas,535.08,8728,383,4.72,853.45
+2026-07-29,Google Ads,Performance Max | Catálogo,713.8,33805,769,8.08,1684.67
+2026-07-30,Google Ads,Search | Marca,200.84,3549,365,17.54,3204.54
+2026-07-30,Google Ads,Search | Genéricas,473.4,7359,327,5.74,945.46
+2026-07-30,Google Ads,Performance Max | Catálogo,790.16,38943,826,10.09,1991.72
+2026-07-31,Google Ads,Search | Marca,178.59,2694,296,15.5,3215.49
+2026-07-31,Google Ads,Search | Genéricas,460.85,7477,338,4.56,762.64
+2026-07-31,Google Ads,Performance Max | Catálogo,733.4,35940,794,8.45,1749.3
+2026-08-01,Google Ads,Search | Marca,190.1,2997,349,14.71,3043.28
+2026-08-01,Google Ads,Search | Genéricas,405.96,7396,317,5.2,903.75
+2026-08-01,Google Ads,Performance Max | Catálogo,534.16,23752,540,6.62,1253.27
+2026-08-02,Google Ads,Search | Marca,195.45,3038,355,18.54,3345.27
+2026-08-02,Google Ads,Search | Genéricas,456.38,7057,308,5.05,848.38
+2026-08-02,Google Ads,Performance Max | Catálogo,723.08,35497,802,11.85,2320.54
+2026-08-03,Google Ads,Search | Marca,227.3,3450,420,21.92,4408.48
+2026-08-03,Google Ads,Search | Genéricas,456.13,7521,352,7.04,1208.37
+2026-08-03,Google Ads,Performance Max | Catálogo,675.51,36561,744,9.54,1972.69
+2026-08-04,Google Ads,Search | Marca,214.04,3837,403,23.03,4415.17
+2026-08-04,Google Ads,Search | Genéricas,465.74,7798,326,5.85,1047.5
+2026-08-04,Google Ads,Performance Max | Catálogo,856.6,44864,973,14.11,3170.71
+2026-08-05,Google Ads,Search | Marca,210.46,3757,421,22.88,4644.06
+2026-08-05,Google Ads,Search | Genéricas,546.96,8867,410,6.42,1153.37
+2026-08-05,Google Ads,Performance Max | Catálogo,740.5,40821,798,9.82,2202.01
+2026-08-06,Google Ads,Search | Marca,194.55,2947,340,20.79,4206.2
+2026-08-06,Google Ads,Search | Genéricas,528.48,9049,401,7.12,1288.17
+2026-08-06,Google Ads,Performance Max | Catálogo,820.77,52378,1005,13.39,2976.04
+2026-08-07,Google Ads,Search | Marca,229.94,3601,398,16.54,3209.68
+2026-08-07,Google Ads,Search | Genéricas,519.04,8119,388,7.46,1166.61
+2026-08-07,Google Ads,Performance Max | Catálogo,786.7,44494,911,9.37,1932.82
+2026-08-08,Google Ads,Search | Marca,182.49,2992,313,12.85,2608.78
+2026-08-08,Google Ads,Search | Genéricas,432.55,6767,337,4.43,756.04
+2026-08-08,Google Ads,Performance Max | Catálogo,598.53,36907,699,10.07,2230.0
+2026-08-09,Google Ads,Search | Marca,198.96,3505,388,18.62,3580.82
+2026-08-09,Google Ads,Search | Genéricas,459.13,7894,345,6.47,1045.9
+2026-08-09,Google Ads,Performance Max | Catálogo,658.53,36891,734,9.5,1976.64
+2026-08-10,Google Ads,Search | Marca,255.08,3936,483,27.1,4890.88
+2026-08-10,Google Ads,Search | Genéricas,528.79,7813,377,4.67,820.33
+2026-08-10,Google Ads,Performance Max | Catálogo,801.71,40990,824,11.84,2479.17
+2026-08-11,Google Ads,Search | Marca,220.22,3391,389,22.03,4347.64
+2026-08-11,Google Ads,Search | Genéricas,563.34,8266,390,7.5,1327.76
+2026-08-11,Google Ads,Performance Max | Catálogo,784.4,41295,881,12.29,2312.92
+2026-08-12,Google Ads,Search | Marca,209.86,3465,363,15.4,2933.54
+2026-08-12,Google Ads,Search | Genéricas,595.54,8794,438,8.17,1336.94
+2026-08-12,Google Ads,Performance Max | Catálogo,886.1,44330,988,13.87,2751.63
+2026-08-13,Google Ads,Search | Marca,191.56,3059,318,20.39,4131.29
+2026-08-13,Google Ads,Search | Genéricas,539.3,7236,364,6.71,1123.14
+2026-08-13,Google Ads,Performance Max | Catálogo,850.23,49447,1046,12.78,2710.46
+2026-08-14,Google Ads,Search | Marca,222.42,3329,397,25.19,4387.98
+2026-08-14,Google Ads,Search | Genéricas,454.06,7489,371,6.12,1140.06
+2026-08-14,Google Ads,Performance Max | Catálogo,699.86,38103,852,12.83,2526.1
+2026-08-15,Google Ads,Search | Marca,183.48,2942,359,16.84,3178.07
+2026-08-15,Google Ads,Search | Genéricas,387.03,6237,266,4.16,739.92
+2026-08-15,Google Ads,Performance Max | Catálogo,731.0,36059,745,10.44,1992.32
+2026-08-16,Google Ads,Search | Marca,193.48,3417,382,18.95,3904.98
+2026-08-16,Google Ads,Search | Genéricas,398.34,6640,302,5.92,1090.63
+2026-08-16,Google Ads,Performance Max | Catálogo,630.82,31859,675,10.45,2081.7
+2026-08-17,Google Ads,Search | Marca,225.69,4220,437,26.68,4996.85
+2026-08-17,Google Ads,Search | Genéricas,569.73,8743,410,4.99,907.51
+2026-08-17,Google Ads,Performance Max | Catálogo,776.0,43768,931,9.13,1970.91
+2026-08-18,Google Ads,Search | Marca,219.36,3508,422,20.06,3524.09
+2026-08-18,Google Ads,Search | Genéricas,628.57,10487,517,6.8,1083.05
+2026-08-18,Google Ads,Performance Max | Catálogo,803.48,44010,954,9.1,1684.49
+2026-08-19,Google Ads,Search | Marca,252.65,4479,484,21.07,3625.74
+2026-08-19,Google Ads,Search | Genéricas,581.67,8868,428,6.77,1229.19
+2026-08-19,Google Ads,Performance Max | Catálogo,842.67,48296,1015,15.51,2889.17
+2026-08-20,Google Ads,Search | Marca,243.2,3653,411,20.92,4320.82
+2026-08-20,Google Ads,Search | Genéricas,454.11,7473,337,5.89,1011.11
+2026-08-20,Google Ads,Performance Max | Catálogo,908.93,57382,1104,14.55,2723.66
+2026-08-21,Google Ads,Search | Marca,203.21,3174,359,17.04,3539.16
+2026-08-21,Google Ads,Search | Genéricas,513.14,8154,383,4.9,876.81
+2026-08-21,Google Ads,Performance Max | Catálogo,870.22,42386,938,13.02,2516.97
+2026-08-22,Google Ads,Search | Marca,190.69,3376,366,18.59,3454.48
+2026-08-22,Google Ads,Search | Genéricas,396.67,6271,298,4.47,715.43
+2026-08-22,Google Ads,Performance Max | Catálogo,787.45,42735,957,9.53,1796.02
+2026-08-23,Google Ads,Search | Marca,217.2,3275,371,20.13,3851.43
+2026-08-23,Google Ads,Search | Genéricas,448.75,8039,359,6.22,1123.39
+2026-08-23,Google Ads,Performance Max | Catálogo,812.73,37618,864,11.34,2255.72
+2026-08-24,Google Ads,Search | Marca,242.03,4034,466,20.89,3638.84
+2026-08-24,Google Ads,Search | Genéricas,609.02,9562,463,7.68,1402.13
+2026-08-24,Google Ads,Performance Max | Catálogo,942.47,42798,956,12.63,2663.04
+2026-08-25,Google Ads,Search | Marca,208.58,2923,349,16.04,2837.79
+2026-08-25,Google Ads,Search | Genéricas,601.83,10398,463,5.58,1030.76
+2026-08-25,Google Ads,Performance Max | Catálogo,895.47,52062,1015,13.53,2513.29
+2026-08-26,Google Ads,Search | Marca,251.14,4391,484,23.17,4265.32
+2026-08-26,Google Ads,Search | Genéricas,581.98,8751,408,5.17,809.67
+2026-08-26,Google Ads,Performance Max | Catálogo,757.74,37826,822,9.1,1925.92
+2026-08-27,Google Ads,Search | Marca,223.52,3844,411,24.1,4203.1
+2026-08-27,Google Ads,Search | Genéricas,512.79,8332,397,6.31,1121.6
+2026-08-27,Google Ads,Performance Max | Catálogo,700.1,37073,794,7.48,1472.5
+2026-08-28,Google Ads,Search | Marca,198.43,3651,389,18.49,3150.55
+2026-08-28,Google Ads,Search | Genéricas,544.49,9599,431,7.6,1307.27
+2026-08-28,Google Ads,Performance Max | Catálogo,862.99,47024,903,13.33,2482.5
+2026-08-29,Google Ads,Search | Marca,164.35,2289,275,14.84,2845.93
+2026-08-29,Google Ads,Search | Genéricas,476.35,8431,358,4.36,723.64
+2026-08-29,Google Ads,Performance Max | Catálogo,756.31,36616,820,12.4,2332.61
+2026-08-30,Google Ads,Search | Marca,221.06,3710,423,22.26,4119.44
+2026-08-30,Google Ads,Search | Genéricas,440.89,7579,337,4.5,775.62
+2026-08-30,Google Ads,Performance Max | Catálogo,639.73,31226,709,8.2,1757.44
+2026-08-31,Google Ads,Search | Marca,255.18,4109,436,18.66,3313.21
+2026-08-31,Google Ads,Search | Genéricas,560.11,8306,394,5.29,959.53
+2026-08-31,Google Ads,Performance Max | Catálogo,839.52,40151,887,10.8,2401.82
+2026-09-01,Google Ads,Search | Marca,243.2,3745,430,26.43,5122.37
+2026-09-01,Google Ads,Search | Genéricas,498.41,8885,404,5.83,957.57
+2026-09-01,Google Ads,Performance Max | Catálogo,746.85,40982,828,10.1,1887.01
+2026-09-02,Google Ads,Search | Marca,251.54,4152,499,30.56,5908.69
+2026-09-02,Google Ads,Search | Genéricas,534.93,8580,399,7.32,1358.72
+2026-09-02,Google Ads,Performance Max | Catálogo,813.66,39329,851,9.69,1976.77
+2026-09-03,Google Ads,Search | Marca,196.06,3782,390,24.33,4454.38
+2026-09-03,Google Ads,Search | Genéricas,543.84,9351,402,5.62,954.61
+2026-09-03,Google Ads,Performance Max | Catálogo,776.44,43849,858,10.04,1968.83
+2026-09-04,Google Ads,Search | Marca,205.67,3380,386,22.97,4469.23
+2026-09-04,Google Ads,Search | Genéricas,429.14,7241,345,4.92,884.11
+2026-09-04,Google Ads,Performance Max | Catálogo,799.44,36379,821,9.41,1960.97
+2026-09-05,Google Ads,Search | Marca,166.54,2547,312,17.83,3297.05
+2026-09-05,Google Ads,Search | Genéricas,447.84,6892,305,4.58,833.71
+2026-09-05,Google Ads,Performance Max | Catálogo,737.18,35386,792,11.08,2355.63
+2026-09-06,Google Ads,Search | Marca,195.94,3137,346,16.75,3078.75
+2026-09-06,Google Ads,Search | Genéricas,410.09,6424,322,5.12,832.48
+2026-09-06,Google Ads,Performance Max | Catálogo,625.67,33813,759,7.6,1642.4
+2026-09-07,Google Ads,Search | Marca,248.5,4122,419,20.01,3983.32
+2026-09-07,Google Ads,Search | Genéricas,468.54,8276,355,6.62,1200.38
+2026-09-07,Google Ads,Performance Max | Catálogo,890.97,51113,1060,12.66,2686.84
+2026-09-08,Google Ads,Search | Marca,213.06,3647,391,22.86,4276.41
+2026-09-08,Google Ads,Search | Genéricas,545.14,8579,419,6.6,1211.28
+2026-09-08,Google Ads,Performance Max | Catálogo,802.03,35468,817,10.02,1964.45
+2026-09-09,Google Ads,Search | Marca,213.97,3152,386,23.25,4659.01
+2026-09-09,Google Ads,Search | Genéricas,461.46,7590,359,6.82,1185.84
+2026-09-09,Google Ads,Performance Max | Catálogo,705.56,32614,733,8.18,1765.14
+2026-09-10,Google Ads,Search | Marca,198.06,3198,333,16.77,3452.51
+2026-09-10,Google Ads,Search | Genéricas,454.59,7620,340,4.15,650.02
+2026-09-10,Google Ads,Performance Max | Catálogo,768.0,38999,900,10.55,1958.67
+2026-09-11,Google Ads,Search | Marca,232.1,3424,395,23.53,4124.84
+2026-09-11,Google Ads,Search | Genéricas,448.92,6505,311,4.08,730.61
+2026-09-11,Google Ads,Performance Max | Catálogo,730.77,46847,901,9.89,2163.27
+2026-09-12,Google Ads,Search | Marca,184.42,2841,320,13.41,2427.08
+2026-09-12,Google Ads,Search | Genéricas,398.81,7158,324,5.95,1014.62
+2026-09-12,Google Ads,Performance Max | Catálogo,579.74,27795,595,5.64,1159.76
+2026-09-13,Google Ads,Search | Marca,175.15,3097,342,18.8,3368.83
+2026-09-13,Google Ads,Search | Genéricas,431.88,7324,309,6.12,961.62
+2026-09-13,Google Ads,Performance Max | Catálogo,690.9,33230,766,9.83,1971.0
+2026-09-14,Google Ads,Search | Marca,328.81,4740,582,33.17,5662.58
+2026-09-14,Google Ads,Search | Genéricas,841.18,13356,643,13.68,2480.73
+2026-09-14,Google Ads,Performance Max | Catálogo,1282.65,77228,1474,23.56,5132.64
+2026-09-15,Google Ads,Search | Marca,533.53,8254,918,65.5,12705.66
+2026-09-15,Google Ads,Search | Genéricas,1508.27,25215,1224,23.96,3950.87
+2026-09-15,Google Ads,Performance Max | Catálogo,1842.58,114174,2178,41.41,8515.17
+2026-09-16,Google Ads,Search | Marca,351.54,5945,633,46.36,8220.73
+2026-09-16,Google Ads,Search | Genéricas,684.61,9723,480,8.79,1398.33
+2026-09-16,Google Ads,Performance Max | Catálogo,1063.18,49723,1095,20.49,4105.22
+2026-09-17,Google Ads,Search | Marca,240.68,3903,437,27.55,5227.02
+2026-09-17,Google Ads,Search | Genéricas,536.13,8996,379,6.37,1166.27
+2026-09-17,Google Ads,Performance Max | Catálogo,771.35,46162,888,11.99,2362.83
+2026-09-18,Google Ads,Search | Marca,211.05,3346,389,18.73,3215.96
+2026-09-18,Google Ads,Search | Genéricas,530.77,8006,405,5.75,1083.95
+2026-09-18,Google Ads,Performance Max | Catálogo,838.7,47178,1018,11.86,2577.71
+2026-09-19,Google Ads,Search | Marca,191.76,3067,319,17.48,3489.6
+2026-09-19,Google Ads,Search | Genéricas,365.33,6095,296,4.42,742.43
+2026-09-19,Google Ads,Performance Max | Catálogo,670.36,33514,729,11.16,2229.24
+2026-09-20,Google Ads,Search | Marca,206.12,3275,369,18.21,3544.64
+2026-09-20,Google Ads,Search | Genéricas,412.28,6850,330,5.28,887.63
+2026-09-20,Google Ads,Performance Max | Catálogo,702.64,40963,819,9.96,2244.5
+2026-09-21,Google Ads,Search | Marca,209.37,3139,351,14.81,2996.61
+2026-09-21,Google Ads,Search | Genéricas,514.61,7759,353,4.48,798.6
+2026-09-21,Google Ads,Performance Max | Catálogo,891.81,50444,1027,10.04,2075.56
+2026-09-22,Google Ads,Search | Marca,258.39,3751,438,27.64,5367.83
+2026-09-22,Google Ads,Search | Genéricas,587.11,10207,434,5.91,943.1
+2026-09-22,Google Ads,Performance Max | Catálogo,907.79,52480,1114,13.01,2829.03
+2026-09-23,Google Ads,Search | Marca,227.35,3932,404,19.0,3949.81
+2026-09-23,Google Ads,Search | Genéricas,556.69,8457,410,7.62,1198.91
+2026-09-23,Google Ads,Performance Max | Catálogo,923.03,47955,997,13.58,2697.33
+2026-09-24,Google Ads,Search | Marca,241.13,3604,415,18.15,3750.24
+2026-09-24,Google Ads,Search | Genéricas,495.12,8064,338,4.39,702.68
+2026-09-24,Google Ads,Performance Max | Catálogo,703.39,37021,810,9.35,2085.77
+2026-09-25,Google Ads,Search | Marca,236.52,3777,402,22.32,4261.37
+2026-09-25,Google Ads,Search | Genéricas,437.94,7277,337,5.4,867.25
+2026-09-25,Google Ads,Performance Max | Catálogo,864.8,47630,1032,14.32,2997.33
+2026-09-26,Google Ads,Search | Marca,208.23,3126,373,14.82,2546.35
+2026-09-26,Google Ads,Search | Genéricas,459.3,7068,335,6.08,1028.31
+2026-09-26,Google Ads,Performance Max | Catálogo,710.32,36639,789,8.83,1975.47
+2026-09-27,Google Ads,Search | Marca,198.1,2918,339,15.84,2738.08
+2026-09-27,Google Ads,Search | Genéricas,403.26,6585,302,4.12,723.76
+2026-09-27,Google Ads,Performance Max | Catálogo,678.6,32842,722,10.65,2390.82
+2026-09-28,Google Ads,Search | Marca,208.22,3422,388,18.35,3444.89
+2026-09-28,Google Ads,Search | Genéricas,508.25,9363,396,5.67,952.64
+2026-09-28,Google Ads,Performance Max | Catálogo,874.84,45397,1023,10.61,2099.98
+2026-09-29,Google Ads,Search | Marca,248.5,3978,469,24.37,4619.49
+2026-09-29,Google Ads,Search | Genéricas,566.42,10477,436,8.53,1468.76
+2026-09-29,Google Ads,Performance Max | Catálogo,999.71,57746,1177,11.41,2336.66
+2026-09-30,Google Ads,Search | Marca,262.88,4158,463,24.52,4956.06
+2026-09-30,Google Ads,Search | Genéricas,538.88,7693,370,6.7,1121.5
+2026-09-30,Google Ads,Performance Max | Catálogo,826.22,45898,905,11.61,2177.05
+2026-10-01,Google Ads,Search | Marca,229.01,3689,395,25.56,5005.14
+2026-10-01,Google Ads,Search | Genéricas,472.65,7085,319,5.86,975.48
+2026-10-01,Google Ads,Performance Max | Catálogo,934.69,50060,988,12.41,2544.09
+2026-10-02,Google Ads,Search | Marca,193.25,3491,378,19.4,3635.06
+2026-10-02,Google Ads,Search | Genéricas,538.8,8937,397,6.71,1076.22
+2026-10-02,Google Ads,Performance Max | Catálogo,927.03,48718,982,11.27,2462.04
+2026-10-03,Google Ads,Search | Marca,202.05,3273,352,21.19,3899.47
+2026-10-03,Google Ads,Search | Genéricas,491.28,7098,332,6.1,1096.48
+2026-10-03,Google Ads,Performance Max | Catálogo,763.4,44799,936,14.43,3125.52
+2026-10-04,Google Ads,Search | Marca,228.7,3496,409,22.16,3912.25
+2026-10-04,Google Ads,Search | Genéricas,511.88,7529,370,4.88,869.7
+2026-10-04,Google Ads,Performance Max | Catálogo,655.49,34501,668,6.34,1251.27
+2026-10-05,Google Ads,Search | Marca,222.47,3536,389,23.01,4714.65
+2026-10-05,Google Ads,Search | Genéricas,644.55,10840,455,5.96,965.12
+2026-10-05,Google Ads,Performance Max | Catálogo,850.08,43303,914,10.36,1984.98
+2026-10-06,Google Ads,Search | Marca,289.44,4993,543,32.08,6331.02
+2026-10-06,Google Ads,Search | Genéricas,626.9,9508,447,6.05,987.85
+2026-10-06,Google Ads,Performance Max | Catálogo,946.42,48376,1112,12.49,2452.4
+2026-10-07,Google Ads,Search | Marca,228.01,3688,398,19.13,3929.18
+2026-10-07,Google Ads,Search | Genéricas,634.93,11570,492,8.57,1438.57
+2026-10-07,Google Ads,Performance Max | Catálogo,1032.66,47055,1078,15.53,3050.22
+2026-10-08,Google Ads,Search | Marca,226.67,3638,395,19.95,3586.88
+2026-10-08,Google Ads,Search | Genéricas,561.34,9535,442,8.6,1537.24
+2026-10-08,Google Ads,Performance Max | Catálogo,779.1,39598,846,9.21,1952.18
+2026-06-11,Meta Ads,Prospecção | Lookalike 3%,541.75,50744,630,5.32,919.31
+2026-06-11,Meta Ads,Remarketing | Carrinho abandonado,221.13,13262,292,7.3,1309.47
+2026-06-11,Meta Ads,Advantage+ Shopping,439.48,35623,516,5.92,1103.64
+2026-06-12,Meta Ads,Prospecção | Lookalike 3%,515.89,43454,575,6.51,968.13
+2026-06-12,Meta Ads,Remarketing | Carrinho abandonado,224.43,13256,308,6.63,1432.78
+2026-06-12,Meta Ads,Advantage+ Shopping,446.84,38886,572,9.06,1673.88
+2026-06-13,Meta Ads,Prospecção | Lookalike 3%,497.34,38184,500,6.06,975.61
+2026-06-13,Meta Ads,Remarketing | Carrinho abandonado,186.77,10175,250,7.68,1544.16
+2026-06-13,Meta Ads,Advantage+ Shopping,446.15,38137,577,6.97,1155.55
+2026-06-14,Meta Ads,Prospecção | Lookalike 3%,442.23,40651,505,5.28,847.65
+2026-06-14,Meta Ads,Remarketing | Carrinho abandonado,186.59,12368,283,8.96,1826.61
+2026-06-14,Meta Ads,Advantage+ Shopping,458.31,34482,577,6.48,1144.6
+2026-06-15,Meta Ads,Prospecção | Lookalike 3%,648.76,50501,664,7.11,1253.59
+2026-06-15,Meta Ads,Remarketing | Carrinho abandonado,247.37,17146,373,8.8,1661.46
+2026-06-15,Meta Ads,Advantage+ Shopping,476.9,29934,515,6.31,1177.62
+2026-06-16,Meta Ads,Prospecção | Lookalike 3%,568.25,42813,552,4.77,747.17
+2026-06-16,Meta Ads,Remarketing | Carrinho abandonado,241.26,14791,361,11.25,2182.68
+2026-06-16,Meta Ads,Advantage+ Shopping,495.89,33062,530,5.69,936.61
+2026-06-17,Meta Ads,Prospecção | Lookalike 3%,502.61,37428,515,4.85,730.39
+2026-06-17,Meta Ads,Remarketing | Carrinho abandonado,221.74,11930,288,9.25,1963.65
+2026-06-17,Meta Ads,Advantage+ Shopping,448.47,30455,505,6.94,1197.56
+2026-06-18,Meta Ads,Prospecção | Lookalike 3%,574.69,51050,655,6.27,1128.45
+2026-06-18,Meta Ads,Remarketing | Carrinho abandonado,247.78,15456,371,8.1,1736.15
+2026-06-18,Meta Ads,Advantage+ Shopping,565.54,42141,693,9.87,1662.43
+2026-06-19,Meta Ads,Prospecção | Lookalike 3%,580.86,44154,606,6.03,895.57
+2026-06-19,Meta Ads,Remarketing | Carrinho abandonado,205.98,12471,325,10.05,2121.9
+2026-06-19,Meta Ads,Advantage+ Shopping,468.33,35096,604,9.98,1656.69
+2026-06-20,Meta Ads,Prospecção | Lookalike 3%,478.33,40211,550,6.11,933.22
+2026-06-20,Meta Ads,Remarketing | Carrinho abandonado,192.55,11892,272,8.39,1635.68
+2026-06-20,Meta Ads,Advantage+ Shopping,405.06,28203,472,5.42,944.08
+2026-06-21,Meta Ads,Prospecção | Lookalike 3%,580.58,46187,593,5.86,893.61
+2026-06-21,Meta Ads,Remarketing | Carrinho abandonado,187.28,11300,276,6.21,1160.78
+2026-06-21,Meta Ads,Advantage+ Shopping,406.56,30794,466,7.57,1468.72
+2026-06-22,Meta Ads,Prospecção | Lookalike 3%,516.35,42636,573,4.81,735.29
+2026-06-22,Meta Ads,Remarketing | Carrinho abandonado,270.61,15962,381,11.32,2379.2
+2026-06-22,Meta Ads,Advantage+ Shopping,496.25,40242,635,8.24,1481.6
+2026-06-23,Meta Ads,Prospecção | Lookalike 3%,654.25,46637,665,5.21,842.91
+2026-06-23,Meta Ads,Remarketing | Carrinho abandonado,235.31,13731,313,6.88,1348.24
+2026-06-23,Meta Ads,Advantage+ Shopping,551.85,44672,679,11.11,1988.04
+2026-06-24,Meta Ads,Prospecção | Lookalike 3%,655.74,57727,683,8.36,1472.1
+2026-06-24,Meta Ads,Remarketing | Carrinho abandonado,272.54,13944,358,7.76,1532.07
+2026-06-24,Meta Ads,Advantage+ Shopping,499.21,41062,599,7.6,1509.12
+2026-06-25,Meta Ads,Prospecção | Lookalike 3%,530.3,40984,528,4.98,896.86
+2026-06-25,Meta Ads,Remarketing | Carrinho abandonado,264.63,14891,373,8.02,1523.4
+2026-06-25,Meta Ads,Advantage+ Shopping,600.65,43073,695,10.55,1740.43
+2026-06-26,Meta Ads,Prospecção | Lookalike 3%,568.57,42968,598,4.86,875.8
+2026-06-26,Meta Ads,Remarketing | Carrinho abandonado,195.75,12185,298,8.43,1580.74
+2026-06-26,Meta Ads,Advantage+ Shopping,453.54,32525,494,6.98,1293.54
+2026-06-27,Meta Ads,Prospecção | Lookalike 3%,480.47,38057,497,5.93,920.58
+2026-06-27,Meta Ads,Remarketing | Carrinho abandonado,211.75,13574,319,9.01,1712.62
+2026-06-27,Meta Ads,Advantage+ Shopping,429.46,32872,481,6.36,1265.92
+2026-06-28,Meta Ads,Prospecção | Lookalike 3%,592.45,55572,681,5.89,1056.06
+2026-06-28,Meta Ads,Remarketing | Carrinho abandonado,232.06,13177,308,6.64,1402.48
+2026-06-28,Meta Ads,Advantage+ Shopping,505.09,33088,581,8.45,1378.9
+2026-06-29,Meta Ads,Prospecção | Lookalike 3%,658.94,53781,722,8.63,1319.8
+2026-06-29,Meta Ads,Remarketing | Carrinho abandonado,214.96,13728,333,7.67,1550.5
+2026-06-29,Meta Ads,Advantage+ Shopping,591.67,44979,739,8.8,1589.15
+2026-06-30,Meta Ads,Prospecção | Lookalike 3%,693.76,57119,682,6.43,1013.56
+2026-06-30,Meta Ads,Remarketing | Carrinho abandonado,212.59,11679,288,6.6,1369.85
+2026-06-30,Meta Ads,Advantage+ Shopping,579.82,47952,692,7.36,1434.23
+2026-07-01,Meta Ads,Prospecção | Lookalike 3%,667.03,50108,695,7.09,1087.51
+2026-07-01,Meta Ads,Remarketing | Carrinho abandonado,213.41,12232,317,9.46,2008.2
+2026-07-01,Meta Ads,Advantage+ Shopping,614.89,50465,767,8.3,1586.46
+2026-07-02,Meta Ads,Prospecção | Lookalike 3%,636.85,51300,683,5.54,992.69
+2026-07-02,Meta Ads,Remarketing | Carrinho abandonado,255.84,13063,333,10.31,1847.36
+2026-07-02,Meta Ads,Advantage+ Shopping,564.53,39531,687,10.68,2073.83
+2026-07-03,Meta Ads,Prospecção | Lookalike 3%,604.16,48519,667,5.26,932.5
+2026-07-03,Meta Ads,Remarketing | Carrinho abandonado,247.19,14616,373,9.51,1809.62
+2026-07-03,Meta Ads,Advantage+ Shopping,555.33,47666,690,7.89,1379.04
+2026-07-04,Meta Ads,Prospecção | Lookalike 3%,542.01,41929,521,5.47,884.44
+2026-07-04,Meta Ads,Remarketing | Carrinho abandonado,225.8,12256,320,6.72,1455.74
+2026-07-04,Meta Ads,Advantage+ Shopping,407.53,28722,438,4.76,850.28
+2026-07-05,Meta Ads,Prospecção | Lookalike 3%,544.64,44817,595,5.86,944.7
+2026-07-05,Meta Ads,Remarketing | Carrinho abandonado,210.57,12638,316,6.17,1325.64
+2026-07-05,Meta Ads,Advantage+ Shopping,475.91,31953,536,7.85,1382.27
+2026-07-06,Meta Ads,Prospecção | Lookalike 3%,516.07,41804,525,4.67,824.18
+2026-07-06,Meta Ads,Remarketing | Carrinho abandonado,255.06,16417,379,9.4,1824.87
+2026-07-06,Meta Ads,Advantage+ Shopping,513.4,41408,652,10.74,2012.88
+2026-07-07,Meta Ads,Prospecção | Lookalike 3%,680.44,56078,700,7.02,1042.56
+2026-07-07,Meta Ads,Remarketing | Carrinho abandonado,229.49,13615,332,9.3,1828.51
+2026-07-07,Meta Ads,Advantage+ Shopping,550.65,43169,687,11.13,2133.8
+2026-07-08,Meta Ads,Prospecção | Lookalike 3%,524.5,46165,602,6.29,1003.64
+2026-07-08,Meta Ads,Remarketing | Carrinho abandonado,257.58,14096,350,7.85,1460.77
+2026-07-08,Meta Ads,Advantage+ Shopping,460.73,35865,571,9.06,1499.76
+2026-07-09,Meta Ads,Prospecção | Lookalike 3%,543.11,45635,557,5.99,987.24
+2026-07-09,Meta Ads,Remarketing | Carrinho abandonado,207.82,13270,287,8.4,1753.03
+2026-07-09,Meta Ads,Advantage+ Shopping,453.81,36223,542,8.99,1633.03
+2026-07-10,Meta Ads,Prospecção | Lookalike 3%,465.71,37107,516,4.95,865.99
+2026-07-10,Meta Ads,Remarketing | Carrinho abandonado,228.34,12143,297,9.46,2019.71
+2026-07-10,Meta Ads,Advantage+ Shopping,513.74,36152,579,9.11,1664.7
+2026-07-11,Meta Ads,Prospecção | Lookalike 3%,531.87,41208,533,4.59,719.06
+2026-07-11,Meta Ads,Remarketing | Carrinho abandonado,199.85,11243,271,7.49,1416.16
+2026-07-11,Meta Ads,Advantage+ Shopping,383.08,30780,470,5.77,1052.76
+2026-07-12,Meta Ads,Prospecção | Lookalike 3%,441.52,36358,491,5.31,799.79
+2026-07-12,Meta Ads,Remarketing | Carrinho abandonado,194.46,11654,275,6.1,1188.51
+2026-07-12,Meta Ads,Advantage+ Shopping,512.67,35667,593,9.43,1797.49
+2026-07-13,Meta Ads,Prospecção | Lookalike 3%,554.8,51369,648,7.16,1264.91
+2026-07-13,Meta Ads,Remarketing | Carrinho abandonado,264.0,15205,383,10.19,2059.28
+2026-07-13,Meta Ads,Advantage+ Shopping,486.65,38367,606,6.25,1094.17
+2026-07-14,Meta Ads,Prospecção | Lookalike 3%,621.34,54909,666,6.42,980.41
+2026-07-14,Meta Ads,Remarketing | Carrinho abandonado,246.86,16559,389,10.44,1871.61
+2026-07-14,Meta Ads,Advantage+ Shopping,567.6,45347,720,7.53,1329.98
+2026-07-15,Meta Ads,Prospecção | Lookalike 3%,516.9,41157,563,5.18,897.78
+2026-07-15,Meta Ads,Remarketing | Carrinho abandonado,251.27,17141,377,7.45,1486.73
+2026-07-15,Meta Ads,Advantage+ Shopping,600.66,44173,728,11.21,2090.59
+2026-07-16,Meta Ads,Prospecção | Lookalike 3%,583.81,46078,563,4.19,643.28
+2026-07-16,Meta Ads,Remarketing | Carrinho abandonado,194.5,11025,268,5.99,1233.33
+2026-07-16,Meta Ads,Advantage+ Shopping,540.8,41668,681,10.33,1725.59
+2026-07-17,Meta Ads,Prospecção | Lookalike 3%,575.1,46156,553,4.13,655.82
+2026-07-17,Meta Ads,Remarketing | Carrinho abandonado,223.23,12423,292,8.41,1523.97
+2026-07-17,Meta Ads,Advantage+ Shopping,512.16,39861,587,9.0,1743.13
+2026-07-18,Meta Ads,Prospecção | Lookalike 3%,478.38,38154,544,6.08,972.54
+2026-07-18,Meta Ads,Remarketing | Carrinho abandonado,183.51,11194,269,6.44,1364.27
+2026-07-18,Meta Ads,Advantage+ Shopping,470.12,34335,600,8.65,1668.58
+2026-07-19,Meta Ads,Prospecção | Lookalike 3%,515.52,40344,549,6.63,1043.65
+2026-07-19,Meta Ads,Remarketing | Carrinho abandonado,214.12,12666,303,7.62,1578.47
+2026-07-19,Meta Ads,Advantage+ Shopping,416.87,26849,458,4.91,956.54
+2026-07-20,Meta Ads,Prospecção | Lookalike 3%,522.35,41620,553,5.09,760.69
+2026-07-20,Meta Ads,Remarketing | Carrinho abandonado,252.57,17021,385,11.5,2204.29
+2026-07-20,Meta Ads,Advantage+ Shopping,581.9,43051,658,6.71,1323.35
+2026-07-21,Meta Ads,Prospecção | Lookalike 3%,509.66,39551,513,5.68,972.93
+2026-07-21,Meta Ads,Remarketing | Carrinho abandonado,245.33,13815,351,7.27,1359.31
+2026-07-21,Meta Ads,Advantage+ Shopping,568.16,42740,695,9.26,1686.43
+2026-07-22,Meta Ads,Prospecção | Lookalike 3%,548.36,43789,550,5.94,935.2
+2026-07-22,Meta Ads,Remarketing | Carrinho abandonado,209.62,14384,324,6.82,1360.05
+2026-07-22,Meta Ads,Advantage+ Shopping,558.48,46447,701,9.39,1775.93
+2026-07-23,Meta Ads,Prospecção | Lookalike 3%,617.39,51946,646,5.07,785.37
+2026-07-23,Meta Ads,Remarketing | Carrinho abandonado,200.31,14076,305,8.07,1525.74
+2026-07-23,Meta Ads,Advantage+ Shopping,569.56,39803,662,7.27,1412.84
+2026-07-24,Meta Ads,Prospecção | Lookalike 3%,523.74,38885,513,4.95,807.03
+2026-07-24,Meta Ads,Remarketing | Carrinho abandonado,192.01,11525,301,7.74,1631.25
+2026-07-24,Meta Ads,Advantage+ Shopping,470.34,36797,604,6.33,1065.35
+2026-07-25,Meta Ads,Prospecção | Lookalike 3%,475.88,36473,521,4.13,717.49
+2026-07-25,Meta Ads,Remarketing | Carrinho abandonado,194.64,11550,262,6.89,1350.72
+2026-07-25,Meta Ads,Advantage+ Shopping,423.73,26468,465,5.67,1051.11
+2026-07-26,Meta Ads,Prospecção | Lookalike 3%,506.83,35936,509,4.26,662.28
+2026-07-26,Meta Ads,Remarketing | Carrinho abandonado,207.7,14174,318,6.51,1160.77
+2026-07-26,Meta Ads,Advantage+ Shopping,446.22,33589,515,6.02,1134.72
+2026-07-27,Meta Ads,Prospecção | Lookalike 3%,610.15,48045,648,7.7,1343.64
+2026-07-27,Meta Ads,Remarketing | Carrinho abandonado,240.98,12767,333,8.33,1664.04
+2026-07-27,Meta Ads,Advantage+ Shopping,554.4,35317,602,6.39,1079.31
+2026-07-28,Meta Ads,Prospecção | Lookalike 3%,560.4,42564,561,4.92,750.81
+2026-07-28,Meta Ads,Remarketing | Carrinho abandonado,253.77,13320,348,9.05,1789.68
+2026-07-28,Meta Ads,Advantage+ Shopping,479.88,39347,621,7.64,1313.8
+2026-07-29,Meta Ads,Prospecção | Lookalike 3%,505.5,35102,487,4.95,890.39
+2026-07-29,Meta Ads,Remarketing | Carrinho abandonado,267.54,16118,369,7.39,1538.22
+2026-07-29,Meta Ads,Advantage+ Shopping,527.11,34676,601,6.82,1255.49
+2026-07-30,Meta Ads,Prospecção | Lookalike 3%,580.2,51184,611,5.53,882.03
+2026-07-30,Meta Ads,Remarketing | Carrinho abandonado,236.7,13587,315,8.98,1702.73
+2026-07-30,Meta Ads,Advantage+ Shopping,583.5,39912,645,8.51,1483.17
+2026-07-31,Meta Ads,Prospecção | Lookalike 3%,515.92,38899,496,4.9,887.43
+2026-07-31,Meta Ads,Remarketing | Carrinho abandonado,230.42,13823,326,7.15,1376.56
+2026-07-31,Meta Ads,Advantage+ Shopping,541.59,36894,621,7.14,1305.06
+2026-08-01,Meta Ads,Prospecção | Lookalike 3%,549.17,43283,585,4.65,839.85
+2026-08-01,Meta Ads,Remarketing | Carrinho abandonado,202.98,13640,305,8.13,1626.56
+2026-08-01,Meta Ads,Advantage+ Shopping,394.46,24362,422,5.59,934.38
+2026-08-02,Meta Ads,Prospecção | Lookalike 3%,564.64,43795,594,5.85,921.51
+2026-08-02,Meta Ads,Remarketing | Carrinho abandonado,228.19,13043,297,7.92,1531.65
+2026-08-02,Meta Ads,Advantage+ Shopping,533.97,36424,627,10.01,1730.73
+2026-08-03,Meta Ads,Prospecção | Lookalike 3%,656.65,49755,703,6.92,1215.0
+2026-08-03,Meta Ads,Remarketing | Carrinho abandonado,228.07,13883,339,11.01,2175.46
+2026-08-03,Meta Ads,Advantage+ Shopping,498.84,37537,582,8.06,1471.53
+2026-08-04,Meta Ads,Prospecção | Lookalike 3%,618.33,55288,674,7.26,1215.1
+2026-08-04,Meta Ads,Remarketing | Carrinho abandonado,232.87,14443,315,9.19,1894.31
+2026-08-04,Meta Ads,Advantage+ Shopping,632.57,46054,761,11.92,2364.99
+2026-08-05,Meta Ads,Prospecção | Lookalike 3%,607.99,54205,705,7.22,1279.38
+2026-08-05,Meta Ads,Remarketing | Carrinho abandonado,273.48,16373,395,10.05,2078.43
+2026-08-05,Meta Ads,Advantage+ Shopping,546.83,41896,624,8.3,1643.28
+2026-08-06,Meta Ads,Prospecção | Lookalike 3%,562.03,42495,569,6.56,1158.67
+2026-08-06,Meta Ads,Remarketing | Carrinho abandonado,264.24,16695,386,11.13,2318.07
+2026-08-06,Meta Ads,Advantage+ Shopping,606.11,53765,786,11.31,2219.45
+2026-08-07,Meta Ads,Prospecção | Lookalike 3%,664.27,51916,666,5.22,884.34
+2026-08-07,Meta Ads,Remarketing | Carrinho abandonado,259.52,15001,374,11.69,2104.45
+2026-08-07,Meta Ads,Advantage+ Shopping,580.95,45642,712,7.91,1440.63
+2026-08-08,Meta Ads,Prospecção | Lookalike 3%,527.2,43156,524,4.05,717.81
+2026-08-08,Meta Ads,Remarketing | Carrinho abandonado,216.28,12508,325,6.94,1363.44
+2026-08-08,Meta Ads,Advantage+ Shopping,441.99,37837,546,8.49,1660.0
+2026-08-09,Meta Ads,Prospecção | Lookalike 3%,574.77,50511,649,5.87,985.51
+2026-08-09,Meta Ads,Remarketing | Carrinho abandonado,229.56,14561,332,10.12,1883.22
+2026-08-09,Meta Ads,Advantage+ Shopping,486.3,37865,574,8.03,1475.18
+2026-08-10,Meta Ads,Prospecção | Lookalike 3%,736.89,56730,808,8.54,1345.54
+2026-08-10,Meta Ads,Remarketing | Carrinho abandonado,264.4,14459,364,7.33,1482.23
+2026-08-10,Meta Ads,Advantage+ Shopping,592.03,42048,644,9.99,1846.91
+2026-08-11,Meta Ads,Prospecção | Lookalike 3%,636.19,48894,651,6.95,1197.42
+2026-08-11,Meta Ads,Remarketing | Carrinho abandonado,281.67,15274,376,11.75,2394.59
+2026-08-11,Meta Ads,Advantage+ Shopping,579.25,42387,689,10.38,1724.77
+2026-08-12,Meta Ads,Prospecção | Lookalike 3%,606.26,50013,608,4.86,808.22
+2026-08-12,Meta Ads,Remarketing | Carrinho abandonado,297.77,16240,422,12.78,2407.45
+2026-08-12,Meta Ads,Advantage+ Shopping,654.35,45463,772,11.71,2051.14
+2026-08-13,Meta Ads,Prospecção | Lookalike 3%,553.4,44173,533,6.44,1139.14
+2026-08-13,Meta Ads,Remarketing | Carrinho abandonado,269.65,13375,351,10.52,2027.04
+2026-08-13,Meta Ads,Advantage+ Shopping,627.86,50753,818,10.79,2020.5
+2026-08-14,Meta Ads,Prospecção | Lookalike 3%,642.55,48055,665,7.95,1209.0
+2026-08-14,Meta Ads,Remarketing | Carrinho abandonado,227.03,13852,358,9.59,2056.52
+2026-08-14,Meta Ads,Advantage+ Shopping,516.82,39092,666,10.83,1882.68
+2026-08-15,Meta Ads,Prospecção | Lookalike 3%,530.05,42442,601,5.31,874.86
+2026-08-15,Meta Ads,Remarketing | Carrinho abandonado,193.51,11505,256,6.5,1330.88
+2026-08-15,Meta Ads,Advantage+ Shopping,539.81,37036,583,8.82,1486.11
+2026-08-16,Meta Ads,Prospecção | Lookalike 3%,558.95,49258,639,5.97,1074.0
+2026-08-16,Meta Ads,Remarketing | Carrinho abandonado,199.17,12306,292,9.3,1972.31
+2026-08-16,Meta Ads,Advantage+ Shopping,465.84,32709,528,8.83,1553.06
+2026-08-17,Meta Ads,Prospecção | Lookalike 3%,651.99,60827,731,8.41,1375.08
+2026-08-17,Meta Ads,Remarketing | Carrinho abandonado,284.86,16144,395,7.81,1635.08
+2026-08-17,Meta Ads,Advantage+ Shopping,573.05,44919,728,7.71,1469.52
+2026-08-18,Meta Ads,Prospecção | Lookalike 3%,633.72,50640,707,6.33,970.83
+2026-08-18,Meta Ads,Remarketing | Carrinho abandonado,314.29,19362,498,10.65,1952.65
+2026-08-18,Meta Ads,Advantage+ Shopping,593.34,45170,746,7.68,1255.2
+2026-08-19,Meta Ads,Prospecção | Lookalike 3%,729.88,64584,810,6.65,999.02
+2026-08-19,Meta Ads,Remarketing | Carrinho abandonado,290.83,16402,413,10.61,2217.59
+2026-08-19,Meta Ads,Advantage+ Shopping,622.28,49586,794,13.11,2156.2
+2026-08-20,Meta Ads,Prospecção | Lookalike 3%,702.58,52696,688,6.6,1190.06
+2026-08-20,Meta Ads,Remarketing | Carrinho abandonado,227.06,13813,325,9.24,1825.96
+2026-08-20,Meta Ads,Advantage+ Shopping,671.21,58873,863,12.28,2029.61
+2026-08-21,Meta Ads,Prospecção | Lookalike 3%,587.05,45787,601,5.37,973.7
+2026-08-21,Meta Ads,Remarketing | Carrinho abandonado,256.57,15057,369,7.67,1579.95
+2026-08-21,Meta Ads,Advantage+ Shopping,642.62,43473,733,10.99,1875.82
+2026-08-22,Meta Ads,Prospecção | Lookalike 3%,550.9,48723,613,5.87,952.28
+2026-08-22,Meta Ads,Remarketing | Carrinho abandonado,198.33,11576,287,6.99,1287.87
+2026-08-22,Meta Ads,Advantage+ Shopping,581.5,43840,748,8.04,1337.82
+2026-08-23,Meta Ads,Prospecção | Lookalike 3%,627.47,47236,621,6.35,1060.66
+2026-08-23,Meta Ads,Remarketing | Carrinho abandonado,224.38,14851,346,9.74,2025.06
+2026-08-23,Meta Ads,Advantage+ Shopping,600.17,38631,676,9.58,1682.53
+2026-08-24,Meta Ads,Prospecção | Lookalike 3%,699.2,58176,780,6.59,1002.15
+2026-08-24,Meta Ads,Remarketing | Carrinho abandonado,304.51,17656,446,12.03,2528.3
+2026-08-24,Meta Ads,Advantage+ Shopping,695.98,43892,747,10.66,1984.53
+2026-08-25,Meta Ads,Prospecção | Lookalike 3%,602.58,42145,584,5.06,781.54
+2026-08-25,Meta Ads,Remarketing | Carrinho abandonado,300.91,19198,446,8.73,1856.4
+2026-08-25,Meta Ads,Advantage+ Shopping,661.27,53386,793,11.42,1872.99
+2026-08-26,Meta Ads,Prospecção | Lookalike 3%,725.51,63244,809,7.3,1173.2
+2026-08-26,Meta Ads,Remarketing | Carrinho abandonado,290.99,16156,393,8.1,1460.29
+2026-08-26,Meta Ads,Advantage+ Shopping,559.56,38836,643,7.69,1436.97
+2026-08-27,Meta Ads,Prospecção | Lookalike 3%,645.73,55357,687,7.59,1155.62
+2026-08-27,Meta Ads,Remarketing | Carrinho abandonado,256.4,15368,382,9.87,2019.58
+2026-08-27,Meta Ads,Advantage+ Shopping,516.99,38056,621,6.32,1098.49
+2026-08-28,Meta Ads,Prospecção | Lookalike 3%,573.25,52570,650,5.82,865.75
+2026-08-28,Meta Ads,Remarketing | Carrinho abandonado,272.25,17716,415,11.89,2354.34
+2026-08-28,Meta Ads,Advantage+ Shopping,637.28,48254,706,11.25,1849.85
+2026-08-29,Meta Ads,Prospecção | Lookalike 3%,474.78,32995,460,4.68,783.54
+2026-08-29,Meta Ads,Remarketing | Carrinho abandonado,238.17,15573,345,6.82,1303.03
+2026-08-29,Meta Ads,Advantage+ Shopping,558.51,37567,641,10.47,1738.97
+2026-08-30,Meta Ads,Prospecção | Lookalike 3%,638.62,53510,708,7.02,1134.15
+2026-08-30,Meta Ads,Remarketing | Carrinho abandonado,220.44,14009,325,7.05,1398.83
+2026-08-30,Meta Ads,Advantage+ Shopping,472.42,32025,554,6.92,1309.48
+2026-08-31,Meta Ads,Prospecção | Lookalike 3%,737.18,59199,729,5.88,911.46
+2026-08-31,Meta Ads,Remarketing | Carrinho abandonado,280.05,15355,380,8.29,1730.99
+2026-08-31,Meta Ads,Advantage+ Shopping,619.95,41231,694,9.13,1792.72
+2026-09-01,Meta Ads,Prospecção | Lookalike 3%,702.59,54038,720,8.34,1411.11
+2026-09-01,Meta Ads,Remarketing | Carrinho abandonado,249.21,16397,389,9.12,1724.38
+2026-09-01,Meta Ads,Advantage+ Shopping,551.52,42031,647,8.52,1405.45
+2026-09-02,Meta Ads,Prospecção | Lookalike 3%,726.66,59869,835,9.64,1627.19
+2026-09-02,Meta Ads,Remarketing | Carrinho abandonado,267.47,15828,384,11.44,2444.46
+2026-09-02,Meta Ads,Advantage+ Shopping,600.86,40337,665,8.18,1473.36
+2026-09-03,Meta Ads,Prospecção | Lookalike 3%,566.38,54557,653,7.68,1227.52
+2026-09-03,Meta Ads,Remarketing | Carrinho abandonado,271.92,17299,388,8.82,1724.62
+2026-09-03,Meta Ads,Advantage+ Shopping,573.37,45009,671,8.48,1468.23
+2026-09-04,Meta Ads,Prospecção | Lookalike 3%,594.14,48738,646,7.25,1231.49
+2026-09-04,Meta Ads,Remarketing | Carrinho abandonado,214.57,13397,333,7.72,1596.96
+2026-09-04,Meta Ads,Advantage+ Shopping,590.36,37337,642,7.94,1460.92
+2026-09-05,Meta Ads,Prospecção | Lookalike 3%,481.11,36719,522,5.62,907.26
+2026-09-05,Meta Ads,Remarketing | Carrinho abandonado,223.92,12734,294,7.17,1502.47
+2026-09-05,Meta Ads,Advantage+ Shopping,544.38,36299,619,9.35,1755.11
+2026-09-06,Meta Ads,Prospecção | Lookalike 3%,566.05,45153,578,5.27,845.65
+2026-09-06,Meta Ads,Remarketing | Carrinho abandonado,205.05,11855,310,8.0,1497.37
+2026-09-06,Meta Ads,Advantage+ Shopping,462.03,34673,593,6.41,1223.06
+2026-09-07,Meta Ads,Prospecção | Lookalike 3%,717.88,59416,701,6.31,1096.6
+2026-09-07,Meta Ads,Remarketing | Carrinho abandonado,234.27,15327,343,10.4,2170.85
+2026-09-07,Meta Ads,Advantage+ Shopping,657.95,52466,829,10.69,2003.14
+2026-09-08,Meta Ads,Prospecção | Lookalike 3%,615.51,52649,655,7.22,1179.13
+2026-09-08,Meta Ads,Remarketing | Carrinho abandonado,272.57,15854,404,10.34,2184.54
+2026-09-08,Meta Ads,Advantage+ Shopping,592.27,36409,639,8.46,1464.43
+2026-09-09,Meta Ads,Prospecção | Lookalike 3%,618.14,45523,647,7.35,1285.82
+2026-09-09,Meta Ads,Remarketing | Carrinho abandonado,230.73,14020,346,10.68,2137.71
+2026-09-09,Meta Ads,Advantage+ Shopping,521.03,33462,573,6.9,1314.62
+2026-09-10,Meta Ads,Prospecção | Lookalike 3%,572.18,46097,557,5.29,950.78
+2026-09-10,Meta Ads,Remarketing | Carrinho abandonado,227.3,14047,327,6.49,1170.21
+2026-09-10,Meta Ads,Advantage+ Shopping,567.14,40039,704,8.91,1460.53
+2026-09-11,Meta Ads,Prospecção | Lookalike 3%,670.52,49290,660,7.41,1134.03
+2026-09-11,Meta Ads,Remarketing | Carrinho abandonado,224.46,12028,300,6.39,1317.23
+2026-09-11,Meta Ads,Advantage+ Shopping,539.65,48043,704,8.34,1610.67
+2026-09-12,Meta Ads,Prospecção | Lookalike 3%,532.78,41003,536,4.23,668.37
+2026-09-12,Meta Ads,Remarketing | Carrinho abandonado,199.41,13254,313,9.33,1831.49
+2026-09-12,Meta Ads,Advantage+ Shopping,428.12,28510,465,4.76,864.21
+2026-09-13,Meta Ads,Prospecção | Lookalike 3%,505.98,44709,573,5.94,929.25
+2026-09-13,Meta Ads,Remarketing | Carrinho abandonado,215.94,13538,298,9.59,1734.64
+2026-09-13,Meta Ads,Advantage+ Shopping,510.21,34106,599,8.31,1471.16
+2026-09-14,Meta Ads,Prospecção | Lookalike 3%,949.91,68277,973,10.45,1557.43
+2026-09-14,Meta Ads,Remarketing | Carrinho abandonado,420.59,24683,620,21.44,4475.63
+2026-09-14,Meta Ads,Advantage+ Shopping,947.19,79219,1152,19.89,3825.82
+2026-09-15,Meta Ads,Prospecção | Lookalike 3%,1541.32,118995,1536,20.65,3497.02
+2026-09-15,Meta Ads,Remarketing | Carrinho abandonado,754.13,46592,1180,37.54,7125.86
+2026-09-15,Meta Ads,Advantage+ Shopping,1360.67,117172,1703,34.97,6349.04
+2026-09-16,Meta Ads,Prospecção | Lookalike 3%,1015.56,85689,1059,14.62,2263.27
+2026-09-16,Meta Ads,Remarketing | Carrinho abandonado,342.3,17976,463,13.78,2523.52
+2026-09-16,Meta Ads,Advantage+ Shopping,785.12,51017,856,17.3,3060.31
+2026-09-17,Meta Ads,Prospecção | Lookalike 3%,695.29,56335,732,8.7,1441.03
+2026-09-17,Meta Ads,Remarketing | Carrinho abandonado,268.06,16652,366,10.0,2107.65
+2026-09-17,Meta Ads,Advantage+ Shopping,569.61,47351,694,10.12,1760.83
+2026-09-18,Meta Ads,Prospecção | Lookalike 3%,609.69,48245,651,5.91,885.9
+2026-09-18,Meta Ads,Remarketing | Carrinho abandonado,265.39,14777,390,9.0,1953.08
+2026-09-18,Meta Ads,Advantage+ Shopping,619.35,48418,796,10.01,1920.92
+2026-09-19,Meta Ads,Prospecção | Lookalike 3%,553.98,44237,534,5.51,960.3
+2026-09-19,Meta Ads,Remarketing | Carrinho abandonado,182.67,11248,285,6.91,1336.12
+2026-09-19,Meta Ads,Advantage+ Shopping,495.04,34393,570,9.42,1661.38
+2026-09-20,Meta Ads,Prospecção | Lookalike 3%,595.46,47183,617,5.74,975.43
+2026-09-20,Meta Ads,Remarketing | Carrinho abandonado,206.14,12693,319,8.29,1604.32
+2026-09-20,Meta Ads,Advantage+ Shopping,518.87,42014,640,8.41,1673.32
+2026-09-21,Meta Ads,Prospecção | Lookalike 3%,604.86,45233,587,4.67,824.92
+2026-09-21,Meta Ads,Remarketing | Carrinho abandonado,257.31,14323,340,7.02,1440.53
+2026-09-21,Meta Ads,Advantage+ Shopping,658.57,51767,803,8.48,1547.83
+2026-09-22,Meta Ads,Prospecção | Lookalike 3%,746.46,54166,734,8.73,1480.12
+2026-09-22,Meta Ads,Remarketing | Carrinho abandonado,293.55,18843,418,9.24,1697.38
+2026-09-22,Meta Ads,Advantage+ Shopping,670.37,53855,871,10.99,2110.0
+2026-09-23,Meta Ads,Prospecção | Lookalike 3%,656.79,56691,676,5.99,1087.1
+2026-09-23,Meta Ads,Remarketing | Carrinho abandonado,278.35,15617,395,11.93,2160.77
+2026-09-23,Meta Ads,Advantage+ Shopping,681.62,49179,779,11.46,2009.76
+2026-09-24,Meta Ads,Prospecção | Lookalike 3%,696.59,51932,694,5.72,1031.81
+2026-09-24,Meta Ads,Remarketing | Carrinho abandonado,247.56,14909,326,6.88,1267.7
+2026-09-24,Meta Ads,Advantage+ Shopping,519.42,37972,633,7.89,1554.02
+2026-09-25,Meta Ads,Prospecção | Lookalike 3%,683.29,54406,672,7.03,1171.74
+2026-09-25,Meta Ads,Remarketing | Carrinho abandonado,218.97,13451,325,8.46,1564.07
+2026-09-25,Meta Ads,Advantage+ Shopping,638.62,48885,807,12.1,2236.15
+2026-09-26,Meta Ads,Prospecção | Lookalike 3%,601.56,45140,625,4.68,702.0
+2026-09-26,Meta Ads,Remarketing | Carrinho abandonado,229.65,13063,323,9.52,1853.51
+2026-09-26,Meta Ads,Advantage+ Shopping,524.54,37606,617,7.45,1471.6
+2026-09-27,Meta Ads,Prospecção | Lookalike 3%,572.28,42059,567,4.99,753.03
+2026-09-27,Meta Ads,Remarketing | Carrinho abandonado,201.63,12163,291,6.45,1304.34
+2026-09-27,Meta Ads,Advantage+ Shopping,501.12,33672,564,8.99,1781.89
+2026-09-28,Meta Ads,Prospecção | Lookalike 3%,601.52,49390,650,5.79,948.94
+2026-09-28,Meta Ads,Remarketing | Carrinho abandonado,254.13,17312,382,8.89,1719.44
+2026-09-28,Meta Ads,Advantage+ Shopping,646.03,46595,800,8.96,1565.79
+2026-09-29,Meta Ads,Prospecção | Lookalike 3%,717.89,57365,785,7.69,1272.59
+2026-09-29,Meta Ads,Remarketing | Carrinho abandonado,283.21,19344,420,13.35,2646.18
+2026-09-29,Meta Ads,Advantage+ Shopping,738.24,59242,920,9.63,1741.25
+2026-09-30,Meta Ads,Prospecção | Lookalike 3%,759.45,59968,775,7.73,1364.01
+2026-09-30,Meta Ads,Remarketing | Carrinho abandonado,269.44,14227,357,10.51,2025.18
+2026-09-30,Meta Ads,Advantage+ Shopping,610.13,47061,707,9.8,1622.51
+2026-10-01,Meta Ads,Prospecção | Lookalike 3%,661.59,53189,661,8.06,1377.88
+2026-10-01,Meta Ads,Remarketing | Carrinho abandonado,236.32,13111,308,9.19,1761.06
+2026-10-01,Meta Ads,Advantage+ Shopping,690.23,51340,772,10.47,1895.1
+2026-10-02,Meta Ads,Prospecção | Lookalike 3%,558.29,50374,633,6.12,1001.11
+2026-10-02,Meta Ads,Remarketing | Carrinho abandonado,269.4,16526,383,10.52,1942.36
+2026-10-02,Meta Ads,Advantage+ Shopping,684.58,50007,768,9.52,1836.26
+2026-10-03,Meta Ads,Prospecção | Lookalike 3%,583.71,47197,589,6.68,1073.18
+2026-10-03,Meta Ads,Remarketing | Carrinho abandonado,245.64,13113,320,9.55,1976.11
+2026-10-03,Meta Ads,Advantage+ Shopping,563.74,45983,732,12.19,2331.23
+2026-10-04,Meta Ads,Prospecção | Lookalike 3%,660.69,50384,684,6.98,1075.81
+2026-10-04,Meta Ads,Remarketing | Carrinho abandonado,255.94,13924,357,7.65,1569.45
+2026-10-04,Meta Ads,Advantage+ Shopping,484.06,35385,522,5.35,932.27
+2026-10-05,Meta Ads,Prospecção | Lookalike 3%,642.68,50990,651,7.26,1298.65
+2026-10-05,Meta Ads,Remarketing | Carrinho abandonado,322.27,20046,439,9.35,1742.94
+2026-10-05,Meta Ads,Advantage+ Shopping,627.75,44460,715,8.75,1480.23
+2026-10-06,Meta Ads,Prospecção | Lookalike 3%,836.17,71942,908,10.11,1741.86
+2026-10-06,Meta Ads,Remarketing | Carrinho abandonado,313.45,17571,431,9.48,1781.88
+2026-10-06,Meta Ads,Advantage+ Shopping,698.89,49676,870,10.56,1830.7
+2026-10-07,Meta Ads,Prospecção | Lookalike 3%,658.7,53176,666,6.03,1081.25
+2026-10-07,Meta Ads,Remarketing | Carrinho abandonado,317.47,21410,475,13.44,2597.09
+2026-10-07,Meta Ads,Advantage+ Shopping,762.58,48296,843,13.11,2273.46
+2026-10-08,Meta Ads,Prospecção | Lookalike 3%,654.83,52378,660,6.28,985.73
+2026-10-08,Meta Ads,Remarketing | Carrinho abandonado,280.67,17614,426,13.47,2771.7
+2026-10-08,Meta Ads,Advantage+ Shopping,575.34,40607,661,7.77,1454.14
+2026-06-11,Mercado Livre,Product Ads | Mais vendidos,270.88,16821,498,12.87,1913.97
+2026-06-11,Mercado Livre,Product Ads | Lançamentos,147.42,9017,182,2.19,309.51
+2026-06-12,Mercado Livre,Product Ads | Mais vendidos,233.03,13789,387,9.86,1442.09
+2026-06-12,Mercado Livre,Product Ads | Lançamentos,138.89,8752,196,2.83,397.91
+2026-06-13,Mercado Livre,Product Ads | Mais vendidos,248.58,13262,398,9.88,1531.25
+2026-06-13,Mercado Livre,Product Ads | Lançamentos,116.59,8355,169,2.48,394.91
+2026-06-14,Mercado Livre,Product Ads | Mais vendidos,262.53,13386,418,15.51,2148.92
+2026-06-14,Mercado Livre,Product Ads | Lançamentos,131.46,7281,164,2.42,383.36
+2026-06-15,Mercado Livre,Product Ads | Mais vendidos,300.2,18763,550,14.76,1919.78
+2026-06-15,Mercado Livre,Product Ads | Lançamentos,140.09,9608,202,2.7,409.81
+2026-06-16,Mercado Livre,Product Ads | Mais vendidos,281.88,16849,498,18.2,2660.92
+2026-06-16,Mercado Livre,Product Ads | Lançamentos,163.11,10083,232,2.41,366.9
+2026-06-17,Mercado Livre,Product Ads | Mais vendidos,326.44,16872,529,17.33,2629.6
+2026-06-17,Mercado Livre,Product Ads | Lançamentos,165.96,11684,233,2.64,392.71
+2026-06-18,Mercado Livre,Product Ads | Mais vendidos,251.78,11549,385,10.48,1534.42
+2026-06-18,Mercado Livre,Product Ads | Lançamentos,143.8,8112,177,1.95,288.78
+2026-06-19,Mercado Livre,Product Ads | Mais vendidos,274.18,15194,479,17.23,2397.43
+2026-06-19,Mercado Livre,Product Ads | Lançamentos,132.76,7258,160,1.59,225.57
+2026-06-20,Mercado Livre,Product Ads | Mais vendidos,212.05,10484,344,9.92,1285.67
+2026-06-20,Mercado Livre,Product Ads | Lançamentos,124.73,6823,151,2.33,389.71
+2026-06-21,Mercado Livre,Product Ads | Mais vendidos,215.71,10707,344,10.51,1422.82
+2026-06-21,Mercado Livre,Product Ads | Lançamentos,141.85,9441,205,2.5,425.4
+2026-06-22,Mercado Livre,Product Ads | Mais vendidos,329.74,18578,576,14.5,2228.92
+2026-06-22,Mercado Livre,Product Ads | Lançamentos,177.3,10879,246,3.24,470.35
+2026-06-23,Mercado Livre,Product Ads | Mais vendidos,330.2,16683,546,16.63,2125.58
+2026-06-23,Mercado Livre,Product Ads | Lançamentos,156.12,9628,230,3.42,568.91
+2026-06-24,Mercado Livre,Product Ads | Mais vendidos,278.72,15265,509,18.68,2432.74
+2026-06-24,Mercado Livre,Product Ads | Lançamentos,158.61,9979,231,3.27,472.21
+2026-06-25,Mercado Livre,Product Ads | Mais vendidos,283.13,15807,467,16.62,2323.76
+2026-06-25,Mercado Livre,Product Ads | Lançamentos,140.31,8039,185,1.97,295.75
+2026-06-26,Mercado Livre,Product Ads | Mais vendidos,318.47,16821,515,15.59,2045.98
+2026-06-26,Mercado Livre,Product Ads | Lançamentos,136.98,8397,188,2.03,298.96
+2026-06-27,Mercado Livre,Product Ads | Mais vendidos,214.51,11869,348,12.56,1911.8
+2026-06-27,Mercado Livre,Product Ads | Lançamentos,115.5,7122,162,1.74,251.48
+2026-06-28,Mercado Livre,Product Ads | Mais vendidos,291.54,15536,479,16.41,2473.53
+2026-06-28,Mercado Livre,Product Ads | Lançamentos,125.95,8388,182,2.19,339.39
+2026-06-29,Mercado Livre,Product Ads | Mais vendidos,321.52,15205,517,12.4,1726.51
+2026-06-29,Mercado Livre,Product Ads | Lançamentos,154.19,9141,191,2.02,311.88
+2026-06-30,Mercado Livre,Product Ads | Mais vendidos,302.02,17861,526,19.12,2684.16
+2026-06-30,Mercado Livre,Product Ads | Lançamentos,184.58,12136,243,3.8,632.64
+2026-07-01,Mercado Livre,Product Ads | Mais vendidos,339.32,15710,521,13.02,1843.53
+2026-07-01,Mercado Livre,Product Ads | Lançamentos,146.42,9921,199,2.34,400.47
+2026-07-02,Mercado Livre,Product Ads | Mais vendidos,265.41,13606,418,12.06,1869.15
+2026-07-02,Mercado Livre,Product Ads | Lançamentos,176.59,10104,232,2.4,359.18
+2026-07-03,Mercado Livre,Product Ads | Mais vendidos,315.17,16537,517,17.43,2255.85
+2026-07-03,Mercado Livre,Product Ads | Lançamentos,152.55,8619,203,2.1,357.79
+2026-07-04,Mercado Livre,Product Ads | Mais vendidos,213.53,11997,379,12.37,1663.52
+2026-07-04,Mercado Livre,Product Ads | Lançamentos,116.55,6895,144,1.89,301.88
+2026-07-05,Mercado Livre,Product Ads | Mais vendidos,248.67,13069,407,14.86,1985.31
+2026-07-05,Mercado Livre,Product Ads | Lançamentos,146.12,9516,205,2.78,416.33
+2026-07-06,Mercado Livre,Product Ads | Mais vendidos,279.92,15661,444,13.04,2036.28
+2026-07-06,Mercado Livre,Product Ads | Lançamentos,183.26,12874,267,2.95,500.08
+2026-07-07,Mercado Livre,Product Ads | Mais vendidos,338.22,17323,523,13.01,1970.73
+2026-07-07,Mercado Livre,Product Ads | Lançamentos,173.42,9360,226,3.04,427.56
+2026-07-08,Mercado Livre,Product Ads | Mais vendidos,318.79,17274,553,20.23,2662.55
+2026-07-08,Mercado Livre,Product Ads | Lançamentos,138.66,8995,200,2.22,353.58
+2026-07-09,Mercado Livre,Product Ads | Mais vendidos,296.9,16524,526,13.92,1972.11
+2026-07-09,Mercado Livre,Product Ads | Lançamentos,168.32,10343,209,2.51,374.07
+2026-07-10,Mercado Livre,Product Ads | Mais vendidos,229.09,11365,362,9.57,1424.5
+2026-07-10,Mercado Livre,Product Ads | Lançamentos,147.19,10028,199,1.96,329.19
+2026-07-11,Mercado Livre,Product Ads | Mais vendidos,266.42,13303,440,13.74,1813.76
+2026-07-11,Mercado Livre,Product Ads | Lançamentos,113.65,6608,157,2.25,376.32
+2026-07-12,Mercado Livre,Product Ads | Mais vendidos,277.26,16640,490,11.78,1766.47
+2026-07-12,Mercado Livre,Product Ads | Lançamentos,148.7,8965,202,2.09,354.07
+2026-07-13,Mercado Livre,Product Ads | Mais vendidos,319.2,14729,485,17.32,2225.69
+2026-07-13,Mercado Livre,Product Ads | Lançamentos,165.92,9541,228,3.28,548.94
+2026-07-14,Mercado Livre,Product Ads | Mais vendidos,322.31,17174,563,13.58,2071.89
+2026-07-14,Mercado Livre,Product Ads | Lançamentos,175.83,10601,248,3.04,455.76
+2026-07-15,Mercado Livre,Product Ads | Mais vendidos,307.99,19324,542,13.77,1888.18
+2026-07-15,Mercado Livre,Product Ads | Lançamentos,169.0,9796,206,2.76,421.92
+2026-07-16,Mercado Livre,Product Ads | Mais vendidos,310.37,15212,513,12.43,1931.12
+2026-07-16,Mercado Livre,Product Ads | Lançamentos,131.96,7678,161,1.62,249.41
+2026-07-17,Mercado Livre,Product Ads | Mais vendidos,280.41,15319,485,14.63,2029.76
+2026-07-17,Mercado Livre,Product Ads | Lançamentos,144.55,8813,202,1.9,321.63
+2026-07-18,Mercado Livre,Product Ads | Mais vendidos,234.88,11538,375,12.21,1686.74
+2026-07-18,Mercado Livre,Product Ads | Lançamentos,108.9,6587,140,1.59,265.3
+2026-07-19,Mercado Livre,Product Ads | Mais vendidos,258.66,15058,449,12.85,1789.08
+2026-07-19,Mercado Livre,Product Ads | Lançamentos,122.66,8129,176,2.68,432.91
+2026-07-20,Mercado Livre,Product Ads | Mais vendidos,317.1,17335,516,15.85,2025.81
+2026-07-20,Mercado Livre,Product Ads | Lançamentos,142.6,8589,192,2.59,401.21
+2026-07-21,Mercado Livre,Product Ads | Mais vendidos,285.96,16378,505,18.19,2735.91
+2026-07-21,Mercado Livre,Product Ads | Lançamentos,141.17,9289,205,2.73,411.84
+2026-07-22,Mercado Livre,Product Ads | Mais vendidos,307.24,15184,487,12.6,1681.54
+2026-07-22,Mercado Livre,Product Ads | Lançamentos,129.47,8268,181,2.66,379.51
+2026-07-23,Mercado Livre,Product Ads | Mais vendidos,263.15,14670,427,14.07,1995.69
+2026-07-23,Mercado Livre,Product Ads | Lançamentos,134.26,8726,173,2.43,399.55
+2026-07-24,Mercado Livre,Product Ads | Mais vendidos,231.6,13487,391,14.42,2054.99
+2026-07-24,Mercado Livre,Product Ads | Lançamentos,122.31,7266,171,2.09,345.69
+2026-07-25,Mercado Livre,Product Ads | Mais vendidos,245.28,11775,372,13.67,2093.1
+2026-07-25,Mercado Livre,Product Ads | Lançamentos,130.0,7538,166,2.42,381.13
+2026-07-26,Mercado Livre,Product Ads | Mais vendidos,274.58,14136,436,11.51,1551.8
+2026-07-26,Mercado Livre,Product Ads | Lançamentos,137.57,7875,174,2.31,344.11
+2026-07-27,Mercado Livre,Product Ads | Mais vendidos,251.11,14771,437,11.93,1707.66
+2026-07-27,Mercado Livre,Product Ads | Lançamentos,138.04,8488,194,2.68,381.64
+2026-07-28,Mercado Livre,Product Ads | Mais vendidos,289.12,15650,477,12.21,1706.13
+2026-07-28,Mercado Livre,Product Ads | Lançamentos,179.56,10279,235,3.46,568.43
+2026-07-29,Mercado Livre,Product Ads | Mais vendidos,277.73,17054,513,17.34,2636.34
+2026-07-29,Mercado Livre,Product Ads | Lançamentos,176.21,10307,238,3.04,484.03
+2026-07-30,Mercado Livre,Product Ads | Mais vendidos,255.45,14737,451,10.34,1420.16
+2026-07-30,Mercado Livre,Product Ads | Lançamentos,158.21,10474,215,2.64,381.17
+2026-07-31,Mercado Livre,Product Ads | Mais vendidos,282.39,17104,519,16.07,2066.12
+2026-07-31,Mercado Livre,Product Ads | Lançamentos,152.96,10031,219,2.12,322.72
+2026-08-01,Mercado Livre,Product Ads | Mais vendidos,222.31,11741,383,10.8,1610.9
+2026-08-01,Mercado Livre,Product Ads | Lançamentos,144.09,10019,202,1.92,301.88
+2026-08-02,Mercado Livre,Product Ads | Mais vendidos,295.24,15878,507,17.35,2538.48
+2026-08-02,Mercado Livre,Product Ads | Lançamentos,148.79,8801,182,1.73,251.12
+2026-08-03,Mercado Livre,Product Ads | Mais vendidos,268.18,13759,432,11.13,1643.51
+2026-08-03,Mercado Livre,Product Ads | Lançamentos,175.66,11125,250,3.51,505.35
+2026-08-04,Mercado Livre,Product Ads | Mais vendidos,343.38,18305,523,11.97,1635.82
+2026-08-04,Mercado Livre,Product Ads | Lançamentos,177.71,10071,217,3.0,428.31
+2026-08-05,Mercado Livre,Product Ads | Mais vendidos,321.83,18330,523,17.83,2709.24
+2026-08-05,Mercado Livre,Product Ads | Lançamentos,168.86,10070,243,3.47,524.78
+2026-08-06,Mercado Livre,Product Ads | Mais vendidos,288.97,15916,494,13.64,2072.3
+2026-08-06,Mercado Livre,Product Ads | Lançamentos,174.39,10487,252,3.36,558.62
+2026-08-07,Mercado Livre,Product Ads | Mais vendidos,306.98,15963,518,19.16,2595.61
+2026-08-07,Mercado Livre,Product Ads | Lançamentos,170.01,10215,224,2.71,442.29
+2026-08-08,Mercado Livre,Product Ads | Mais vendidos,240.53,11316,374,8.9,1360.26
+2026-08-08,Mercado Livre,Product Ads | Lançamentos,128.49,7649,172,2.02,285.42
+2026-08-09,Mercado Livre,Product Ads | Mais vendidos,301.58,18346,536,18.47,2538.99
+2026-08-09,Mercado Livre,Product Ads | Lançamentos,163.68,9945,209,1.97,334.86
+2026-08-10,Mercado Livre,Product Ads | Mais vendidos,281.09,14484,448,15.17,2236.26
+2026-08-10,Mercado Livre,Product Ads | Lançamentos,180.41,10305,240,2.39,352.08
+2026-08-11,Mercado Livre,Product Ads | Mais vendidos,351.99,19361,610,18.06,2580.38
+2026-08-11,Mercado Livre,Product Ads | Lançamentos,175.22,10444,222,3.06,455.49
+2026-08-12,Mercado Livre,Product Ads | Mais vendidos,298.89,18526,539,13.09,1872.11
+2026-08-12,Mercado Livre,Product Ads | Lançamentos,187.59,12817,266,3.3,537.92
+2026-08-13,Mercado Livre,Product Ads | Mais vendidos,357.54,19963,592,14.21,1894.38
+2026-08-13,Mercado Livre,Product Ads | Lançamentos,154.67,11076,220,2.8,417.08
+2026-08-14,Mercado Livre,Product Ads | Mais vendidos,348.95,17843,575,14.03,2139.07
+2026-08-14,Mercado Livre,Product Ads | Lançamentos,164.04,9092,203,2.5,385.36
+2026-08-15,Mercado Livre,Product Ads | Mais vendidos,246.72,13369,451,13.38,2022.36
+2026-08-15,Mercado Livre,Product Ads | Lançamentos,142.37,9171,207,2.01,291.56
+2026-08-16,Mercado Livre,Product Ads | Mais vendidos,292.21,14855,506,12.28,1835.99
+2026-08-16,Mercado Livre,Product Ads | Lançamentos,159.36,9618,200,2.53,390.77
+2026-08-17,Mercado Livre,Product Ads | Mais vendidos,330.49,15071,513,13.89,2020.12
+2026-08-17,Mercado Livre,Product Ads | Lançamentos,187.02,9887,237,2.53,371.87
+2026-08-18,Mercado Livre,Product Ads | Mais vendidos,364.1,22465,651,15.38,1966.73
+2026-08-18,Mercado Livre,Product Ads | Lançamentos,184.27,11431,241,2.61,424.01
+2026-08-19,Mercado Livre,Product Ads | Mais vendidos,356.18,18624,599,21.78,3270.8
+2026-08-19,Mercado Livre,Product Ads | Lançamentos,187.56,10122,242,2.91,458.01
+2026-08-20,Mercado Livre,Product Ads | Mais vendidos,338.12,15745,520,12.26,1624.6
+2026-08-20,Mercado Livre,Product Ads | Lançamentos,164.28,9325,208,2.33,336.17
+2026-08-21,Mercado Livre,Product Ads | Mais vendidos,332.59,15795,533,15.99,2267.76
+2026-08-21,Mercado Livre,Product Ads | Lançamentos,148.16,9999,217,2.47,366.08
+2026-08-22,Mercado Livre,Product Ads | Mais vendidos,245.24,11304,374,11.64,1801.9
+2026-08-22,Mercado Livre,Product Ads | Lançamentos,173.06,10626,223,2.15,352.59
+2026-08-23,Mercado Livre,Product Ads | Mais vendidos,290.17,13966,469,11.83,1708.53
+2026-08-23,Mercado Livre,Product Ads | Lançamentos,164.02,10840,219,2.53,381.52
+2026-08-24,Mercado Livre,Product Ads | Mais vendidos,359.05,18634,558,18.36,2496.69
+2026-08-24,Mercado Livre,Product Ads | Lançamentos,208.51,11745,261,3.19,479.18
+2026-08-25,Mercado Livre,Product Ads | Mais vendidos,332.58,16641,506,15.29,2383.14
+2026-08-25,Mercado Livre,Product Ads | Lançamentos,198.05,12073,261,2.75,417.14
+2026-08-26,Mercado Livre,Product Ads | Mais vendidos,363.8,18122,591,15.1,2165.31
+2026-08-26,Mercado Livre,Product Ads | Lançamentos,205.24,12110,277,2.81,479.84
+2026-08-27,Mercado Livre,Product Ads | Mais vendidos,334.85,20358,588,18.09,2595.62
+2026-08-27,Mercado Livre,Product Ads | Lançamentos,153.29,7809,186,2.28,328.47
+2026-08-28,Mercado Livre,Product Ads | Mais vendidos,345.08,17778,575,17.33,2349.35
+2026-08-28,Mercado Livre,Product Ads | Lançamentos,185.94,10827,226,2.9,441.87
+2026-08-29,Mercado Livre,Product Ads | Mais vendidos,312.56,15591,520,18.44,2501.3
+2026-08-29,Mercado Livre,Product Ads | Lançamentos,162.39,9200,220,2.76,458.16
+2026-08-30,Mercado Livre,Product Ads | Mais vendidos,270.55,14870,469,17.58,2491.19
+2026-08-30,Mercado Livre,Product Ads | Lançamentos,139.4,8630,184,2.36,371.36
+2026-08-31,Mercado Livre,Product Ads | Mais vendidos,331.89,19711,573,18.89,2720.9
+2026-08-31,Mercado Livre,Product Ads | Lançamentos,166.66,10504,210,2.95,479.09
+2026-09-01,Mercado Livre,Product Ads | Mais vendidos,376.82,20053,642,22.35,3478.89
+2026-09-01,Mercado Livre,Product Ads | Lançamentos,185.31,12357,272,3.55,594.75
+2026-09-02,Mercado Livre,Product Ads | Mais vendidos,367.54,19864,619,18.17,2694.93
+2026-09-02,Mercado Livre,Product Ads | Lançamentos,173.13,10889,223,2.74,467.55
+2026-09-03,Mercado Livre,Product Ads | Mais vendidos,301.0,15127,483,17.04,2590.19
+2026-09-03,Mercado Livre,Product Ads | Lançamentos,188.69,12126,257,3.56,584.17
+2026-09-04,Mercado Livre,Product Ads | Mais vendidos,339.55,21995,623,19.92,3066.77
+2026-09-04,Mercado Livre,Product Ads | Lançamentos,189.01,11055,240,2.4,384.42
+2026-09-05,Mercado Livre,Product Ads | Mais vendidos,299.68,15681,505,18.21,2351.02
+2026-09-05,Mercado Livre,Product Ads | Lançamentos,158.04,10210,219,2.25,353.19
+2026-09-06,Mercado Livre,Product Ads | Mais vendidos,286.35,15541,450,10.66,1625.99
+2026-09-06,Mercado Livre,Product Ads | Lançamentos,156.63,9237,220,2.26,349.82
+2026-09-07,Mercado Livre,Product Ads | Mais vendidos,302.08,18921,529,18.29,2805.58
+2026-09-07,Mercado Livre,Product Ads | Lançamentos,184.98,12141,264,3.05,484.13
+2026-09-08,Mercado Livre,Product Ads | Mais vendidos,347.98,19965,588,20.69,2761.24
+2026-09-08,Mercado Livre,Product Ads | Lançamentos,173.66,11130,232,3.0,475.0
+2026-09-09,Mercado Livre,Product Ads | Mais vendidos,367.79,18814,639,20.69,2805.47
+2026-09-09,Mercado Livre,Product Ads | Lançamentos,175.95,9793,226,2.19,348.91
+2026-09-10,Mercado Livre,Product Ads | Mais vendidos,306.71,15905,472,16.28,2361.26
+2026-09-10,Mercado Livre,Product Ads | Lançamentos,157.99,9098,205,2.79,454.47
+2026-09-11,Mercado Livre,Product Ads | Mais vendidos,311.07,15253,485,17.48,2554.81
+2026-09-11,Mercado Livre,Product Ads | Lançamentos,150.7,9082,203,2.83,405.29
+2026-09-12,Mercado Livre,Product Ads | Mais vendidos,246.41,13487,391,9.57,1369.65
+2026-09-12,Mercado Livre,Product Ads | Lançamentos,161.37,8942,213,3.1,460.09
+2026-09-13,Mercado Livre,Product Ads | Mais vendidos,300.93,15288,503,16.95,2329.26
+2026-09-13,Mercado Livre,Product Ads | Lançamentos,130.61,7786,159,2.45,409.73
+2026-09-14,Mercado Livre,Product Ads | Mais vendidos,511.48,22922,777,33.57,4638.97
+2026-09-14,Mercado Livre,Product Ads | Lançamentos,280.56,18681,414,6.32,1020.0
+2026-09-15,Mercado Livre,Product Ads | Mais vendidos,898.04,44577,1471,67.31,8809.33
+2026-09-15,Mercado Livre,Product Ads | Lançamentos,423.07,26297,623,10.03,1694.63
+2026-09-16,Mercado Livre,Product Ads | Mais vendidos,405.79,22449,741,33.48,4566.08
+2026-09-16,Mercado Livre,Product Ads | Lançamentos,231.87,13896,333,4.69,730.56
+2026-09-17,Mercado Livre,Product Ads | Mais vendidos,267.61,14369,413,12.1,1776.79
+2026-09-17,Mercado Livre,Product Ads | Lançamentos,175.86,9933,215,3.01,437.12
+2026-09-18,Mercado Livre,Product Ads | Mais vendidos,288.19,16874,522,14.94,2313.06
+2026-09-18,Mercado Livre,Product Ads | Lançamentos,136.92,8597,187,2.86,477.88
+2026-09-19,Mercado Livre,Product Ads | Mais vendidos,231.25,11862,371,13.79,1902.83
+2026-09-19,Mercado Livre,Product Ads | Lançamentos,137.21,9588,195,2.86,442.12
+2026-09-20,Mercado Livre,Product Ads | Mais vendidos,289.42,14840,469,10.7,1606.55
+2026-09-20,Mercado Livre,Product Ads | Lançamentos,137.16,8840,197,1.93,317.05
+2026-09-21,Mercado Livre,Product Ads | Mais vendidos,294.82,15619,520,14.26,1882.19
+2026-09-21,Mercado Livre,Product Ads | Lançamentos,194.95,12215,288,2.96,427.59
+2026-09-22,Mercado Livre,Product Ads | Mais vendidos,309.03,17188,550,12.59,1614.32
+2026-09-22,Mercado Livre,Product Ads | Lançamentos,195.5,12956,275,2.88,409.06
+2026-09-23,Mercado Livre,Product Ads | Mais vendidos,346.83,17679,575,17.05,2555.72
+2026-09-23,Mercado Livre,Product Ads | Lançamentos,174.82,11445,252,3.85,545.75
+2026-09-24,Mercado Livre,Product Ads | Mais vendidos,339.41,16895,526,15.45,2397.51
+2026-09-24,Mercado Livre,Product Ads | Lançamentos,146.25,9041,195,2.66,414.15
+2026-09-25,Mercado Livre,Product Ads | Mais vendidos,343.0,21971,624,19.73,2558.3
+2026-09-25,Mercado Livre,Product Ads | Lançamentos,153.37,8958,199,2.27,389.15
+2026-09-26,Mercado Livre,Product Ads | Mais vendidos,275.25,14627,463,11.11,1641.29
+2026-09-26,Mercado Livre,Product Ads | Lançamentos,162.41,9058,210,2.91,428.09
+2026-09-27,Mercado Livre,Product Ads | Mais vendidos,283.43,16632,499,14.62,2041.16
+2026-09-27,Mercado Livre,Product Ads | Lançamentos,136.06,8096,184,2.16,313.55
+2026-09-28,Mercado Livre,Product Ads | Mais vendidos,381.15,21024,695,16.61,2168.31
+2026-09-28,Mercado Livre,Product Ads | Lançamentos,195.17,10967,244,3.18,502.19
+2026-09-29,Mercado Livre,Product Ads | Mais vendidos,332.85,19938,600,19.49,2906.12
+2026-09-29,Mercado Livre,Product Ads | Lançamentos,209.73,11096,267,3.51,531.31
+2026-09-30,Mercado Livre,Product Ads | Mais vendidos,348.61,19267,616,15.93,2084.81
+2026-09-30,Mercado Livre,Product Ads | Lançamentos,202.43,11962,277,3.59,594.45
+2026-10-01,Mercado Livre,Product Ads | Mais vendidos,364.58,16800,554,17.56,2564.68
+2026-10-01,Mercado Livre,Product Ads | Lançamentos,152.61,7974,187,2.07,302.28
+2026-10-02,Mercado Livre,Product Ads | Mais vendidos,342.89,19795,594,13.42,2046.61
+2026-10-02,Mercado Livre,Product Ads | Lançamentos,177.51,11799,241,3.21,453.75
+2026-10-03,Mercado Livre,Product Ads | Mais vendidos,310.39,17965,548,15.13,2092.62
+2026-10-03,Mercado Livre,Product Ads | Lançamentos,165.99,9373,209,2.07,294.03
+2026-10-04,Mercado Livre,Product Ads | Mais vendidos,273.71,13872,445,11.83,1734.27
+2026-10-04,Mercado Livre,Product Ads | Lançamentos,163.56,10475,220,3.1,446.25
+2026-10-05,Mercado Livre,Product Ads | Mais vendidos,351.32,19061,612,18.24,2676.66
+2026-10-05,Mercado Livre,Product Ads | Lançamentos,166.88,10117,227,2.14,320.58
+2026-10-06,Mercado Livre,Product Ads | Mais vendidos,339.85,20689,610,16.73,2141.77
+2026-10-06,Mercado Livre,Product Ads | Lançamentos,215.2,14250,306,4.21,656.79
+2026-10-07,Mercado Livre,Product Ads | Mais vendidos,397.16,21977,623,22.07,2847.06
+2026-10-07,Mercado Livre,Product Ads | Lançamentos,166.35,8646,204,2.65,419.47
+2026-10-08,Mercado Livre,Product Ads | Mais vendidos,371.67,21982,629,14.35,1966.29
+2026-10-08,Mercado Livre,Product Ads | Lançamentos,205.32,11380,267,4.04,578.32
