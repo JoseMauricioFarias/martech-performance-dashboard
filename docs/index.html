@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Painel de Performance de Marketing · Demo</title>
+<meta name="description" content="Painel de performance que integra Google Ads, Meta Ads e Mercado Livre. Dados fictícios para portfólio.">
+<style>
+:root {
+  color-scheme: light;
+  --page: #f9f9f7;
+  --surface: #fcfcfb;
+  --ink-1: #0b0b0b;
+  --ink-2: #52514e;
+  --muted: #898781;
+  --grid: #e1e0d9;
+  --axis: #c3c2b7;
+  --border: rgba(11,11,11,0.10);
+  --wash: rgba(11,11,11,0.04);
+  --s1: #2a78d6; /* Google Ads */
+  --s2: #eb6834; /* Meta Ads */
+  --s3: #1baf7a; /* Mercado Livre */
+  --good: #0ca30c; --good-text: #006300;
+  --warning: #fab219;
+  --serious: #ec835a;
+  --critical: #d03b3b; --critical-text: #b42828;
+  --neutral-1: #52514e; --neutral-2: #a9a8a0;
+  --accent: #2a78d6;
+  --shadow: 0 1px 2px rgba(11,11,11,0.04);
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19;
+    --ink-1: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
+    --grid: #2c2c2a; --axis: #383835;
+    --border: rgba(255,255,255,0.10); --wash: rgba(255,255,255,0.05);
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70;
+    --good-text: #0ca30c; --critical-text: #e66767;
+    --neutral-1: #c3c2b7; --neutral-2: #6b6a64;
+    --accent: #3987e5; --shadow: none;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface: #1a1a19;
+  --ink-1: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
+  --grid: #2c2c2a; --axis: #383835;
+  --border: rgba(255,255,255,0.10); --wash: rgba(255,255,255,0.05);
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70;
+  --good-text: #0ca30c; --critical-text: #e66767;
+  --neutral-1: #c3c2b7; --neutral-2: #6b6a64;
+  --accent: #3987e5; --shadow: none;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--page); color: var(--ink-1);
+  font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.wrap { max-width: 1240px; margin: 0 auto; padding: 24px 16px 48px; }
+header.top { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: flex-end; justify-content: space-between; margin-bottom: 20px; }
+h1 { font-size: 22px; line-height: 1.2; margin: 0 0 4px; letter-spacing: -0.01em; }
+.sub { color: var(--ink-2); margin: 0; }
+.badge { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--ink-2); border: 1px solid var(--border); border-radius: 999px; padding: 2px 10px; margin-left: 6px; vertical-align: 2px; background: var(--surface); }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.seg { display: inline-flex; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 2px; }
+.seg button { border: 0; background: transparent; color: var(--ink-2); font: inherit; font-size: 13px; padding: 5px 10px; border-radius: 6px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
+.seg button:hover { background: var(--wash); color: var(--ink-1); }
+.seg button[aria-pressed="true"] { background: var(--ink-1); color: var(--surface); }
+.seg .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+.icon-btn { border: 1px solid var(--border); background: var(--surface); color: var(--ink-2); border-radius: 8px; height: 32px; width: 32px; cursor: pointer; font-size: 15px; }
+.grid { display: grid; gap: 16px; }
+.kpis { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; box-shadow: var(--shadow); min-width: 0; }
+.kpi .label { color: var(--ink-2); font-size: 13px; }
+.kpi .value { font-size: 26px; font-weight: 650; letter-spacing: -0.02em; margin: 4px 0 2px; white-space: nowrap; }
+.kpi .delta { font-size: 12px; color: var(--muted); }
+.delta .up { color: var(--good-text); font-weight: 600; }
+.delta .down { color: var(--critical-text); font-weight: 600; }
+.card h2 { font-size: 15px; margin: 0; }
+.card .hint { color: var(--muted); font-size: 12px; margin: 2px 0 12px; }
+.card-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap; }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12px; color: var(--ink-2); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend i { width: 12px; height: 2px; border-radius: 2px; display: inline-block; }
+.row-2 { grid-template-columns: 2fr 1fr; margin-top: 16px; }
+.row-3 { grid-template-columns: 1fr 1fr 1fr; margin-top: 16px; }
+.chart { position: relative; width: 100%; }
+.chart svg { display: block; width: 100%; overflow: visible; }
+.tick { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+.tip { position: absolute; pointer-events: none; background: var(--surface); color: var(--ink-1); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; font-size: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); min-width: 170px; opacity: 0; transition: opacity .12s; z-index: 5; }
+.tip .t { color: var(--ink-2); margin-bottom: 4px; }
+.tip .r { display: flex; justify-content: space-between; gap: 12px; font-variant-numeric: tabular-nums; }
+.tip .r span:first-child { display: inline-flex; align-items: center; gap: 6px; color: var(--ink-2); }
+.tip .sw { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+.funnel { display: grid; gap: 10px; }
+.step { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--grid); padding-bottom: 10px; }
+.step:last-child { border-bottom: 0; padding-bottom: 0; }
+.step .n { font-size: 20px; font-weight: 650; letter-spacing: -0.01em; }
+.step .rate { font-size: 12px; color: var(--ink-2); text-align: right; }
+.step .rate b { color: var(--ink-1); }
+.stack { display: flex; gap: 2px; height: 14px; margin: 6px 0 14px; }
+.stack div { height: 100%; }
+.stack div:first-child { border-radius: 4px 0 0 4px; }
+.stack div:last-child { border-radius: 0 4px 4px 0; }
+.status-list { display: grid; gap: 8px; font-size: 13px; }
+.status-list div { display: flex; justify-content: space-between; gap: 8px; }
+.status-list span:first-child { display: inline-flex; align-items: center; gap: 8px; color: var(--ink-2); }
+.status-list b { font-variant-numeric: tabular-nums; }
+.ico { width: 16px; height: 16px; flex: none; }
+.big { font-size: 30px; font-weight: 650; letter-spacing: -0.02em; margin: 4px 0; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th { text-align: right; font-weight: 600; color: var(--ink-2); font-size: 12px; padding: 8px 10px; border-bottom: 1px solid var(--axis); cursor: pointer; user-select: none; white-space: nowrap; }
+th:first-child, td:first-child, th:nth-child(2), td:nth-child(2) { text-align: left; }
+th[aria-sort] { color: var(--ink-1); }
+td { padding: 9px 10px; border-bottom: 1px solid var(--grid); text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr:hover td { background: var(--wash); }
+.chan { display: inline-flex; align-items: center; gap: 6px; color: var(--ink-2); }
+.chan i { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+.pill { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; color: var(--ink-1); }
+.table-wrap { overflow-x: auto; margin: 0 -16px; padding: 0 16px; }
+details { margin-top: 10px; font-size: 12px; color: var(--ink-2); }
+details summary { cursor: pointer; }
+details table { margin-top: 8px; }
+footer { color: var(--muted); font-size: 12px; margin-top: 24px; display: flex; flex-wrap: wrap; gap: 6px 16px; justify-content: space-between; }
+footer a { color: var(--ink-2); }
+@media (max-width: 1080px) { .kpis { grid-template-columns: repeat(3, minmax(0, 1fr)); } .row-3 { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 760px) { .row-2, .row-3 { grid-template-columns: 1fr; } }
+@media (max-width: 520px) { .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); } .kpi .value { font-size: 22px; } h1 { font-size: 19px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>Painel de Performance de Marketing <span class="badge">● Dados fictícios</span></h1>
+      <p class="sub">Google Ads, Meta Ads e Mercado Livre integrados via API · marca demo “Aurora”</p>
+    </div>
+    <div class="filters" role="toolbar" aria-label="Filtros">
+      <div class="seg" id="period" aria-label="Período">
+        <button data-v="7">7 dias</button>
+        <button data-v="30" aria-pressed="true">30 dias</button>
+        <button data-v="90">90 dias</button>
+      </div>
+      <div class="seg" id="channel" aria-label="Canal">
+        <button data-v="all" aria-pressed="true">Todos</button>
+        <button data-v="Google Ads"><span class="dot" style="background:var(--s1)"></span>Google</button>
+        <button data-v="Meta Ads"><span class="dot" style="background:var(--s2)"></span>Meta</button>
+        <button data-v="Mercado Livre"><span class="dot" style="background:var(--s3)"></span>Mercado Livre</button>
+      </div>
+      <button class="icon-btn" id="theme" title="Alternar tema claro/escuro" aria-label="Alternar tema"><svg viewBox="0 0 16 16" width="16" height="16" style="vertical-align:-3px"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>
+    </div>
+  </header>
+
+  <section class="grid kpis" id="kpis" aria-label="Indicadores principais"></section>
+
+  <section class="grid row-2">
+    <div class="card">
+      <div class="card-head">
+        <div><h2>Receita atribuída por dia</h2><p class="hint">Receita das vendas aprovadas atribuídas a cada canal</p></div>
+        <div class="legend" id="legend-rev"></div>
+      </div>
+      <div class="chart" id="chart-rev"></div>
+      <details><summary>Ver dados em tabela</summary><div id="table-rev"></div></details>
+    </div>
+    <div class="card">
+      <h2>ROAS por canal</h2>
+      <p class="hint">Receita ÷ investimento no período</p>
+      <div class="chart" id="chart-roas"></div>
+      <h2 style="margin-top:18px">Funil de mídia</h2>
+      <p class="hint">Todos os canais selecionados</p>
+      <div class="funnel" id="funnel"></div>
+    </div>
+  </section>
+
+  <section class="grid row-2">
+    <div class="card">
+      <div class="card-head">
+        <div><h2>Investimento por dia</h2><p class="hint">Gasto em mídia por canal</p></div>
+        <div class="legend" id="legend-spend"></div>
+      </div>
+      <div class="chart" id="chart-spend"></div>
+    </div>
+    <div class="card">
+      <h2>Entregas Mercado Livre</h2>
+      <p class="hint">Status de envio dos pedidos do período</p>
+      <div class="big" id="ml-ontime"></div>
+      <div class="stack" id="ml-stack" role="img"></div>
+      <div class="status-list" id="ml-list"></div>
+    </div>
+  </section>
+
+  <section class="card" style="margin-top:16px">
+    <div class="card-head">
+      <div><h2>Campanhas</h2><p class="hint">Clique no título da coluna para ordenar · status pelo ROAS (≥ 3 saudável, 2 a 3 atenção, &lt; 2 crítico)</p></div>
+    </div>
+    <div class="table-wrap"><table id="camp"></table></div>
+  </section>
+
+  <section class="grid row-3">
+    <div class="card">
+      <h2>Vendas aprovadas no CRM</h2>
+      <p class="hint">Todas as origens, inclusive orgânico</p>
+      <div class="big" id="crm-rev"></div>
+      <div class="delta" id="crm-orders" style="color:var(--ink-2)"></div>
+    </div>
+    <div class="card">
+      <h2>Participação da mídia paga</h2>
+      <p class="hint">Receita atribuída ÷ receita aprovada no CRM</p>
+      <div class="big" id="crm-share"></div>
+      <div class="delta" style="color:var(--ink-2)">O restante vem de orgânico, direto e recompra</div>
+    </div>
+    <div class="card">
+      <h2>Pedidos em análise</h2>
+      <p class="hint">Ficam fora das vendas até a aprovação</p>
+      <div class="big" id="crm-pending"></div>
+      <div class="delta" style="color:var(--ink-2)">Pagamentos ainda não confirmados</div>
+    </div>
+  </section>
+
+  <footer>
+    <span>Projeto de portfólio · todos os números são sintéticos, gerados por <code>src/demo_data.py</code></span>
+    <span><a href="https://github.com/JoseMauricioFarias/martech-performance-dashboard">Código no GitHub</a> · José Mauricio Farias</span>
+  </footer>
+</div>
+
+<script>
+const CH = [
+  { key: 'Google Ads', short: 'Google', color: 'var(--s1)' },
+  { key: 'Meta Ads', short: 'Meta', color: 'var(--s2)' },
+  { key: 'Mercado Livre', short: 'Mercado Livre', color: 'var(--s3)' },
+];
+const state = { period: 30, channel: 'all', sort: { key: 'revenue', dir: -1 } };
+let DATA, DATES;
+
+const brl = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 });
+const brl2 = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL', minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const int = new Intl.NumberFormat('pt-BR', { maximumFractionDigits: 0 });
+const dec = (n, d = 2) => n.toLocaleString('pt-BR', { minimumFractionDigits: d, maximumFractionDigits: d });
+const pct = (n, d = 1) => dec(n * 100, d) + '%';
+const compact = n => n >= 1e6 ? 'R$ ' + dec(n / 1e6, 1) + ' mi' : n >= 1e3 ? 'R$ ' + dec(n / 1e3, 0) + ' mil' : brl.format(n);
+const short = n => n >= 1e6 ? dec(n / 1e6, 1) + ' mi' : n >= 1e3 ? dec(n / 1e3, n >= 1e4 || n % 1000 === 0 ? 0 : 1) + ' mil' : int.format(n);
+const fmtDate = s => { const [y, m, d] = s.split('-'); return `${d}/${m}`; };
+const fmtDateLong = s => new Date(s + 'T12:00:00').toLocaleDateString('pt-BR', { weekday: 'short', day: '2-digit', month: 'short' });
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+
+const ICONS = {
+  good: '<svg class="ico" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="var(--good)"/><path d="M4.8 8.2l2.1 2.1 4.3-4.4" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  warning: '<svg class="ico" viewBox="0 0 16 16"><path d="M8 1.5l7 12.5H1z" fill="var(--warning)"/><path d="M8 6v3.6" stroke="#0b0b0b" stroke-width="1.6" stroke-linecap="round"/><circle cx="8" cy="11.8" r=".9" fill="#0b0b0b"/></svg>',
+  critical: '<svg class="ico" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="var(--critical)"/><path d="M5.5 5.5l5 5M10.5 5.5l-5 5" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/></svg>',
+  transit: '<svg class="ico" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="var(--neutral-1)"/><path d="M5 8h6M8.5 5.5L11 8l-2.5 2.5" fill="none" stroke="var(--surface)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  pending: '<svg class="ico" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.2" fill="none" stroke="var(--neutral-2)" stroke-width="1.6"/><path d="M8 4.8V8l2 1.4" fill="none" stroke="var(--neutral-2)" stroke-width="1.6" stroke-linecap="round"/></svg>',
+};
+
+// ---------- Dados ----------
+function windowDates(offset = 0) {
+  const n = state.period;
+  const end = DATES.length - offset * n;
+  return DATES.slice(Math.max(0, end - n), end);
+}
+function activeChannels() { return state.channel === 'all' ? CH : CH.filter(c => c.key === state.channel); }
+function aggregate(dates) {
+  const set = new Set(dates); const chans = new Set(activeChannels().map(c => c.key));
+  const byCamp = new Map(); const byDay = new Map(dates.map(d => [d, {}]));
+  const tot = { spend: 0, impressions: 0, clicks: 0, conversions: 0, revenue: 0 };
+  const byChan = Object.fromEntries(CH.map(c => [c.key, { spend: 0, revenue: 0 }]));
+  for (const [date, ci, spend, imp, clk, conv, rev] of DATA.rows) {
+    if (!set.has(date)) continue;
+    const [name, chan] = DATA.campaigns[ci];
+    if (!chans.has(chan)) continue;
+    tot.spend += spend; tot.impressions += imp; tot.clicks += clk; tot.conversions += conv; tot.revenue += rev;
+    byChan[chan].spend += spend; byChan[chan].revenue += rev;
+    const day = byDay.get(date); day[chan] = day[chan] || { spend: 0, revenue: 0 };
+    day[chan].spend += spend; day[chan].revenue += rev;
+    const c = byCamp.get(name) || { name, chan, spend: 0, impressions: 0, clicks: 0, conversions: 0, revenue: 0 };
+    c.spend += spend; c.impressions += imp; c.clicks += clk; c.conversions += conv; c.revenue += rev;
+    byCamp.set(name, c);
+  }
+  return { tot, byChan, byDay, byCamp: [...byCamp.values()] };
+}
+
+// ---------- KPIs ----------
+function renderKpis(cur, prev) {
+  const m = t => ({ spend: t.spend, revenue: t.revenue, roas: t.revenue / t.spend, cpa: t.spend / t.conversions, conv: t.conversions, ctr: t.clicks / t.impressions });
+  const a = m(cur.tot), b = prev ? m(prev.tot) : null;
+  const items = [
+    ['Investimento', a.spend, compact(a.spend), 'spend', 0],
+    ['Receita atribuída', a.revenue, compact(a.revenue), 'revenue', 1],
+    ['ROAS', a.roas, dec(a.roas) + 'x', 'roas', 1],
+    ['CPA', a.cpa, brl2.format(a.cpa), 'cpa', -1],
+    ['Conversões', a.conv, int.format(a.conv), 'conv', 1],
+    ['CTR', a.ctr, pct(a.ctr, 2), 'ctr', 1],
+  ];
+  document.getElementById('kpis').innerHTML = items.map(([label, v, txt, k, good]) => {
+    let d = '<span>sem período anterior</span>';
+    if (b && b[k]) {
+      const ch = v / b[k] - 1; const arrow = ch >= 0 ? '▲' : '▼';
+      const cls = good === 0 ? '' : (ch * good >= 0 ? 'up' : 'down');
+      d = `<span class="${cls}">${arrow} ${pct(Math.abs(ch))}</span> vs ${state.period} dias anteriores`;
+    }
+    return `<div class="card kpi"><div class="label">${label}</div><div class="value">${txt}</div><div class="delta">${d}</div></div>`;
+  }).join('');
+}
+
+// ---------- Gráfico de linhas (com crosshair + tooltip) ----------
+function niceStep(v) { const p = Math.pow(10, Math.floor(Math.log10(v))); const n = v / p; return (n <= 1 ? 1 : n <= 2 ? 2 : n <= 5 ? 5 : 10) * p; }
+function lineChart(el, legendEl, dates, byDay, metric, height) {
+  const chans = activeChannels();
+  legendEl.innerHTML = chans.length > 1 ? chans.map(c => `<span><i style="background:${c.color}"></i>${c.short}</span>`).join('') : '';
+  const W = el.clientWidth || 600, H = height, m = { t: 10, r: chans.length > 1 ? 92 : 16, b: 26, l: 58 };
+  const iw = W - m.l - m.r, ih = H - m.t - m.b;
+  const series = chans.map(c => ({ ...c, vals: dates.map(d => (byDay.get(d)[c.key] || {})[metric] || 0) }));
+  const dmax = Math.max(1, ...series.flatMap(s => s.vals)); const stepY = niceStep(dmax / 4); const max = Math.ceil((dmax * 1.04) / stepY) * stepY;
+  const x = i => m.l + (dates.length === 1 ? iw / 2 : (i / (dates.length - 1)) * iw);
+  const y = v => m.t + ih - (v / max) * ih;
+  const ticks = Array.from({ length: Math.round(max / stepY) + 1 }, (_, k) => k * stepY);
+  const step = Math.ceil(dates.length / Math.max(2, Math.floor(iw / 70)));
+  let s = `<svg viewBox="0 0 ${W} ${H}" height="${H}" role="img" aria-label="Gráfico de linhas: ${metric === 'revenue' ? 'receita' : 'investimento'} por dia e canal">`;
+  s += ticks.map(t => `<line x1="${m.l}" x2="${W - m.r}" y1="${y(t)}" y2="${y(t)}" stroke="${t === 0 ? 'var(--axis)' : 'var(--grid)'}" stroke-width="1"/><text class="tick" x="${m.l - 8}" y="${y(t) + 4}" text-anchor="end">${t === 0 ? '0' : short(t)}</text>`).join('');
+  s += dates.map((d, i) => (i % step === 0 || i === dates.length - 1) && (i === dates.length - 1 || dates.length - 1 - i >= step * 0.6) ? `<text class="tick" x="${x(i)}" y="${H - 6}" text-anchor="middle">${fmtDate(d)}</text>` : '').join('');
+  for (const se of series) {
+    const pts = se.vals.map((v, i) => `${x(i).toFixed(1)},${y(v).toFixed(1)}`).join(' ');
+    s += `<polyline points="${pts}" fill="none" stroke="${se.color}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+  }
+  // rótulos diretos no fim da linha, com afastamento para não colidir
+  if (series.length > 1) {
+    const ends = series.map(se => ({ se, y: y(se.vals[se.vals.length - 1]) })).sort((a, b) => a.y - b.y);
+    for (let i = 1; i < ends.length; i++) if (ends[i].y - ends[i - 1].y < 14) ends[i].y = ends[i - 1].y + 14;
+    s += ends.map(e => `<text x="${W - m.r + 8}" y="${e.y + 4}" font-size="11" fill="var(--ink-2)">${e.se.short}</text>`).join('');
+  }
+  s += `<line class="xh" y1="${m.t}" y2="${m.t + ih}" stroke="var(--muted)" stroke-width="1" opacity="0"/>`;
+  s += series.map((se, k) => `<circle class="hd" data-k="${k}" r="4" fill="${se.color}" stroke="var(--surface)" stroke-width="2" opacity="0"/>`).join('');
+  s += `<rect class="hit" x="${m.l}" y="${m.t}" width="${iw}" height="${ih}" fill="transparent"/></svg><div class="tip"></div>`;
+  el.innerHTML = s;
+  const svg = el.querySelector('svg'), tip = el.querySelector('.tip'), xh = el.querySelector('.xh'), dots = el.querySelectorAll('.hd');
+  const show = evt => {
+    const r = svg.getBoundingClientRect(); const px = (evt.clientX - r.left) * (W / r.width);
+    const i = Math.max(0, Math.min(dates.length - 1, Math.round(((px - m.l) / iw) * (dates.length - 1))));
+    xh.setAttribute('x1', x(i)); xh.setAttribute('x2', x(i)); xh.setAttribute('opacity', 1);
+    dots.forEach(dt => { const se = series[dt.dataset.k]; dt.setAttribute('cx', x(i)); dt.setAttribute('cy', y(se.vals[i])); dt.setAttribute('opacity', 1); });
+    const total = series.reduce((a, se) => a + se.vals[i], 0);
+    tip.innerHTML = `<div class="t">${fmtDateLong(dates[i])}</div>` + series.map(se => `<div class="r"><span><i class="sw" style="background:${se.color}"></i>${se.short}</span><b>${brl.format(se.vals[i])}</b></div>`).join('') + (series.length > 1 ? `<div class="r" style="border-top:1px solid var(--grid);margin-top:4px;padding-top:4px"><span>Total</span><b>${brl.format(total)}</b></div>` : '');
+    const left = x(i) * (r.width / W); const tw = tip.offsetWidth;
+    tip.style.left = (left + 14 + tw > r.width ? left - tw - 14 : left + 14) + 'px'; tip.style.top = '8px'; tip.style.opacity = 1;
+  };
+  const hide = () => { tip.style.opacity = 0; xh.setAttribute('opacity', 0); dots.forEach(d => d.setAttribute('opacity', 0)); };
+  const hit = el.querySelector('.hit');
+  hit.addEventListener('mousemove', show); hit.addEventListener('mouseleave', hide);
+  hit.addEventListener('touchstart', e => show(e.touches[0]), { passive: true }); hit.addEventListener('touchmove', e => show(e.touches[0]), { passive: true });
+  return series;
+}
+
+// ---------- Barras de ROAS ----------
+function roasBars(el, byChan) {
+  const rows = activeChannels().map(c => ({ ...c, v: byChan[c.key].spend ? byChan[c.key].revenue / byChan[c.key].spend : 0 }));
+  const max = Math.max(...rows.map(r => r.v)) * 1.18;
+  el.innerHTML = rows.map(r => `
+    <div style="display:grid;grid-template-columns:96px 1fr;align-items:center;gap:8px;margin:6px 0" title="${r.key}: ROAS ${dec(r.v)}x">
+      <span style="font-size:12px;color:var(--ink-2)">${r.short}</span>
+      <div style="display:flex;align-items:center;gap:6px">
+        <div style="height:14px;width:${(r.v / max) * 100}%;background:${r.color};border-radius:0 4px 4px 0"></div>
+        <span style="font-size:12px;font-variant-numeric:tabular-nums">${dec(r.v)}x</span>
+      </div>
+    </div>`).join('');
+}
+
+// ---------- Funil (números, não gráfico) ----------
+function funnel(el, t) {
+  el.innerHTML = `
+    <div class="step"><span>Impressões</span><span class="n">${short(t.impressions)}</span></div>
+    <div class="step"><span>Cliques</span><span class="rate"><span class="n">${short(t.clicks)}</span><br>CTR <b>${pct(t.clicks / t.impressions, 2)}</b></span></div>
+    <div class="step"><span>Conversões</span><span class="rate"><span class="n">${int.format(t.conversions)}</span><br>Taxa de conversão <b>${pct(t.conversions / t.clicks, 2)}</b></span></div>`;
+}
+
+// ---------- Mercado Livre ----------
+function mlShipping(dates) {
+  const set = new Set(dates); const sum = {};
+  for (const r of DATA.ml_shipping) if (set.has(r.date)) for (const [k, v] of Object.entries(r)) if (k !== 'date') sum[k] = (sum[k] || 0) + v;
+  const def = [
+    ['delivered', 'Entregue', 'var(--good)', 'good'],
+    ['shipped', 'Em trânsito', 'var(--neutral-1)', 'transit'],
+    ['ready_to_ship', 'Pronto para envio', 'var(--neutral-2)', 'pending'],
+    ['delayed', 'Atrasado', 'var(--warning)', 'warning'],
+    ['not_delivered', 'Não entregue', 'var(--critical)', 'critical'],
+  ].filter(d => sum[d[0]]);
+  const total = def.reduce((a, d) => a + sum[d[0]], 0) || 1;
+  const done = (sum.delivered || 0) + (sum.delayed || 0) + (sum.not_delivered || 0);
+  document.getElementById('ml-ontime').innerHTML = done ? `${pct((sum.delivered || 0) / done)} <span style="font-size:13px;font-weight:400;color:var(--ink-2)">entregues sem problema</span>` : '—';
+  const stack = document.getElementById('ml-stack');
+  stack.setAttribute('aria-label', def.map(d => `${d[1]} ${sum[d[0]]}`).join(', '));
+  stack.innerHTML = def.map(d => `<div style="width:${(sum[d[0]] / total) * 100}%;background:${d[2]}" title="${d[1]}: ${int.format(sum[d[0]])}"></div>`).join('');
+  document.getElementById('ml-list').innerHTML = def.map(d => `<div><span>${ICONS[d[3]]}${d[1]}</span><b>${int.format(sum[d[0]])} · ${pct(sum[d[0]] / total)}</b></div>`).join('') + `<div style="border-top:1px solid var(--grid);padding-top:8px"><span>Total de pedidos</span><b>${int.format(total)}</b></div>`;
+}
+
+// ---------- CRM ----------
+function crm(dates, attributed) {
+  const set = new Set(dates); let rev = 0, orders = 0, pending = 0;
+  for (const r of DATA.crm) if (set.has(r.date)) { rev += r.approved_revenue; orders += r.approved_orders; pending += r.pending_orders; }
+  document.getElementById('crm-rev').textContent = compact(rev);
+  document.getElementById('crm-orders').textContent = `${int.format(orders)} pedidos aprovados · ticket médio ${brl2.format(rev / orders)}`;
+  document.getElementById('crm-share').textContent = state.channel === 'all' ? pct(Math.min(1, attributed / rev)) : '—';
+  document.getElementById('crm-pending').textContent = int.format(pending);
+}
+
+// ---------- Tabela de campanhas ----------
+function statusOf(roas) { return roas >= 3 ? ['good', 'Saudável'] : roas >= 2 ? ['warning', 'Atenção'] : ['critical', 'Crítico']; }
+function campaignTable(rows) {
+  const cols = [
+    ['name', 'Campanha'], ['chan', 'Canal'], ['spend', 'Investimento'], ['revenue', 'Receita'], ['roas', 'ROAS'],
+    ['cpa', 'CPA'], ['ctr', 'CTR'], ['conversions', 'Conversões'], ['status', 'Status'],
+  ];
+  rows = rows.map(r => ({ ...r, roas: r.revenue / r.spend, cpa: r.spend / r.conversions, ctr: r.clicks / r.impressions, status: r.revenue / r.spend }));
+  const { key, dir } = state.sort;
+  rows.sort((a, b) => (typeof a[key] === 'string' ? a[key].localeCompare(b[key]) : a[key] - b[key]) * dir);
+  const color = Object.fromEntries(CH.map(c => [c.key, c.color]));
+  const tbl = document.getElementById('camp');
+  tbl.innerHTML = `<thead><tr>${cols.map(([k, l]) => `<th data-k="${k}" ${k === key ? `aria-sort="${dir > 0 ? 'ascending' : 'descending'}"` : ''}>${l}${k === key ? (dir > 0 ? ' ↑' : ' ↓') : ''}</th>`).join('')}</tr></thead><tbody>` +
+    rows.map(r => { const [st, lbl] = statusOf(r.roas); return `<tr>
+      <td>${r.name}</td><td><span class="chan"><i style="background:${color[r.chan]}"></i>${r.chan}</span></td>
+      <td>${brl.format(r.spend)}</td><td>${brl.format(r.revenue)}</td><td><b>${dec(r.roas)}x</b></td>
+      <td>${brl2.format(r.cpa)}</td><td>${pct(r.ctr, 2)}</td><td>${int.format(r.conversions)}</td>
+      <td><span class="pill">${ICONS[st]}${lbl}</span></td></tr>`; }).join('') + '</tbody>';
+  tbl.querySelectorAll('th').forEach(th => th.onclick = () => {
+    const k = th.dataset.k; state.sort = { key: k, dir: state.sort.key === k ? -state.sort.dir : (['name', 'chan'].includes(k) ? 1 : -1) }; render();
+  });
+}
+
+function dataTable(el, dates, series) {
+  el.innerHTML = `<table><thead><tr><th>Data</th>${series.map(s => `<th>${s.short}</th>`).join('')}</tr></thead><tbody>` +
+    dates.map((d, i) => `<tr><td>${fmtDate(d)}</td>${series.map(s => `<td>${brl.format(s.vals[i])}</td>`).join('')}</tr>`).join('') + '</tbody></table>';
+}
+
+// ---------- Render ----------
+function render() {
+  const dates = windowDates(0), prevDates = windowDates(1);
+  const cur = aggregate(dates), prev = prevDates.length === state.period ? aggregate(prevDates) : null;
+  renderKpis(cur, prev);
+  const revSeries = lineChart(document.getElementById('chart-rev'), document.getElementById('legend-rev'), dates, cur.byDay, 'revenue', 280);
+  dataTable(document.getElementById('table-rev'), dates, revSeries);
+  lineChart(document.getElementById('chart-spend'), document.getElementById('legend-spend'), dates, cur.byDay, 'spend', 200);
+  roasBars(document.getElementById('chart-roas'), cur.byChan);
+  funnel(document.getElementById('funnel'), cur.tot);
+  mlShipping(dates);
+  crm(dates, cur.tot.revenue);
+  campaignTable(cur.byCamp);
+}
+
+function bindSeg(id, key, parse) {
+  document.querySelectorAll(`#${id} button`).forEach(b => b.onclick = () => {
+    document.querySelectorAll(`#${id} button`).forEach(x => x.setAttribute('aria-pressed', x === b));
+    state[key] = parse(b.dataset.v); render();
+  });
+}
+bindSeg('period', 'period', Number);
+bindSeg('channel', 'channel', String);
+document.getElementById('theme').onclick = () => {
+  const dark = document.documentElement.dataset.theme ? document.documentElement.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+  document.documentElement.dataset.theme = dark ? 'light' : 'dark';
+  try { localStorage.setItem('theme', document.documentElement.dataset.theme); } catch (e) {}
+};
+try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+let rt; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(render, 120); });
+
+fetch('data/dashboard.json').then(r => r.json()).then(d => {
+  DATA = d; DATES = [...new Set(d.rows.map(r => r[0]))].sort(); render();
+});
+</script>
+</body>
+</html>
